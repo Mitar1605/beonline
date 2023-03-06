@@ -1,5 +1,42 @@
 header {
   width: 100%;
   position: fixed;
-  background-color: lightskyblue;
+  background-color: #1B5CC8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header_container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo_div a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+}
+header .haeder_content nav ul {
+  display: flex;
+  list-style: none;
+}
+header .haeder_content nav ul li {
+  padding: 5px;
+}
+header .haeder_content nav ul li a {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+header .haeder_content nav ul li a svg {
+  font-size: 24px;
+}
+header .haeder_content nav ul li a span {
+  margin-left: 10px;
 }/*# sourceMappingURL=Header.css.map */

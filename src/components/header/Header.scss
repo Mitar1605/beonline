@@ -1,5 +1,48 @@
 header{
     width: 100%;
     position: fixed;
-    background-color: lightskyblue;
+    background-color: #1B5CC8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header_container{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo_div{
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            font-size: 24px;
+        }
+    }
+    .haeder_content{
+        nav{
+            ul{
+                display: flex;
+                list-style: none;
+                li{
+                    padding: 5px;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        font-weight: 500;
+                        color: #fff;
+                        padding: 10px;
+                        text-decoration: none;
+                        font-size: 14px;
+                        svg{
+                            font-size: 24px;
+                        }
+                        span{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
