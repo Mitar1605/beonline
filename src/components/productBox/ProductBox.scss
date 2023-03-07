@@ -1,0 +1,67 @@
+.productbox_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+    &:hover{
+        box-shadow: 0 0 15px #ccc;
+        transition: all ease .4s;
+    }
+    .productbox_thumbnail{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+        }
+    }
+    .productbox_title{
+        padding: 0 15px;
+        padding-bottom: 20px;
+        p{
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+    .productbox_price{
+        p{
+            font-weight: 600;
+            color: grey;
+        }
+        div{
+            display: block;
+            height: 50px;
+            font-size: 14px;
+            text-decoration: line-through;
+            color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .productbox_monthly_price{
+        padding-bottom: 10px;
+        p{
+            color: #337ab7;
+            font-size: 15px;
+            span{
+                color: #000;
+                font-weight: 600;
+            }
+        }
+    }
+    .productbox_available{
+        position: absolute;
+        padding: 5px 10px;
+        span{
+            font-size: 14px;
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+}

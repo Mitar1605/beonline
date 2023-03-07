@@ -31,6 +31,7 @@
 }
 .homepage_slider .homepage_silder_content {
   width: 100%;
+  height: 100%;
   position: absolute;
   display: flex;
   transition: ease all 0.7s;
