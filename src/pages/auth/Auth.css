@@ -1,0 +1,93 @@
+.auth_main {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth_main form {
+  width: 550px;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+}
+.auth_main form .form_title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.auth_main form .form_title h1 {
+  font-weight: 400;
+  color: #333333;
+}
+.auth_main form .form_title span {
+  font-size: 14px;
+  color: #337ab7;
+  cursor: pointer;
+}
+.auth_main form .form_title span:hover {
+  text-decoration: underline;
+}
+.auth_main form label {
+  display: block;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 20px;
+}
+.auth_main form label input {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 15px 10px;
+  outline: none;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border: solid 1px #f1f1f1;
+}
+.auth_main form label input::-moz-placeholder {
+  color: #333333;
+}
+.auth_main form label input::placeholder {
+  color: #333333;
+}
+.auth_main form label input[type=password] {
+  font-family: roboto, sans-serif;
+}
+.auth_main form .form_password_remember {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.auth_main form .form_password_remember .form_password_remember_label {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.auth_main form .form_password_remember .form_password_remember_label input {
+  margin: 0;
+  width: 15px;
+}
+.auth_main form .form_password_remember a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.auth_main form .form_password_remember a:hover {
+  text-decoration: underline;
+}
+.auth_main form .login_form_submit button {
+  display: block;
+  padding: 10px 35px;
+  border: 0;
+  cursor: pointer;
+  background: #3d97ee;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 15px;
+  line-height: 24px;
+}/*# sourceMappingURL=Auth.css.map */

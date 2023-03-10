@@ -1,30 +1,36 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
-import HomePage from './pages/homepage/HomePage';
 import Header from './components/header/Header';
+import useScrollTop from './hooks/useScrollTop';
 import { authUserRoutes, guestRoutes } from './hooks/routeData';
 
-function App() {
+export const isAuthContext = createContext()  
 
-  const isAuth = false
-  
+function App() {
+  useScrollTop()
+
+  const isAuth = localStorage.getItem('isAuth') ? JSON.parse(localStorage.getItem('isAuth')).val: false
+  const initialUser = localStorage.getItem('rememberUser') ? JSON.parse(localStorage.getItem('rememberUser')): {}
+
   return (
     <div className="App">
-      <Header />
-      <div className="header_space"></div>
-      <Routes>
-        {
-          isAuth && authUserRoutes.map(elem => {
-            return <Route path={elem.path} element={elem.component} />
-          })
-        }
-        { 
-          guestRoutes.map(elem => {
-            return <Route path={elem.path} element={elem.component} />
-          })
-        }
-      </Routes>
+      <isAuthContext.Provider value={{isAuth, initialUser}}>
+        <Header />
+        <div className="header_space"></div>
+        <Routes>
+          {
+            isAuth && authUserRoutes.map(elem => {
+              return <Route path={elem.path} element={elem.component} />
+            })
+          }
+          { 
+            guestRoutes.map(elem => {
+              return <Route path={elem.path} element={elem.component} />
+            })
+          }
+        </Routes>
+      </isAuthContext.Provider>
     </div>
   );
 }

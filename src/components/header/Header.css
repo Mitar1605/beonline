@@ -5,6 +5,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   z-index: 1000;
 }
 header .header_container {
@@ -21,10 +22,12 @@ header .logo_div a {
 }
 header .haeder_content nav ul {
   display: flex;
+  align-items: center;
   list-style: none;
 }
 header .haeder_content nav ul li {
   padding: 5px;
+  color: #fff;
 }
 header .haeder_content nav ul li a {
   display: flex;
@@ -40,4 +43,7 @@ header .haeder_content nav ul li a svg {
 }
 header .haeder_content nav ul li a span {
   margin-left: 10px;
+}
+header .haeder_content nav ul li h4 {
+  font-weight: 400;
 }/*# sourceMappingURL=Header.css.map */

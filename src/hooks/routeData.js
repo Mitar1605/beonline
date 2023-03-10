@@ -1,4 +1,5 @@
 import HomePage from "../pages/homepage/HomePage"
+import Auth from "../pages/auth/Auth"
 
 export const authUserRoutes = [
     {
@@ -11,5 +12,9 @@ export const guestRoutes = [
     {
         path: '/',
         component: <HomePage /> 
+    },
+    {
+        path: '/auth',
+        component: <Auth />
     }
 ]

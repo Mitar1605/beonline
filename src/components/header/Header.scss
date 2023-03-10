@@ -5,6 +5,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 15px rgb(0 0 0 / 50%);
     z-index: 1000;
     .header_container{
         width: 80%;
@@ -24,9 +25,11 @@ header{
         nav{
             ul{
                 display: flex;
+                align-items: center;
                 list-style: none;
                 li{
                     padding: 5px;
+                    color: #fff;
                     a{
                         display: flex;
                         align-items: center;
@@ -41,6 +44,9 @@ header{
                         span{
                             margin-left: 10px;
                         }
+                    }
+                    h4{
+                        font-weight: 400;
                     }
                 }
             }
