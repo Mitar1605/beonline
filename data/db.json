@@ -1090,9 +1090,72 @@
               }
         ],
         "noutbook": [
-            {
-                "title": "noutbook"
+          {
+            "id": 1,
+            "title": "PC Notebook HP 250 G9 Intel Core i5-1235U 512GB (Black)",
+            "rating": 4,
+            "price": 349900,
+            "discounted price": 0,
+            "installment 36 months": "9,720դր.",
+            "installment 24 months": "14,580դր.",
+            "installment 12 months": "29,160դր.",
+            "ram": "6 GB",
+            "rom": "512 GB",
+            "year of announcement": "2022",
+            "available colors": ["red", "lightblue", "black", "pink"],
+            "color": "lightblue",
+            "quantity": 1,
+            "is available": true,
+            "thumbnail": [
+              "https://www.mobilecentre.am/img/prodpic/318319e38f820712ec3c%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__14_.png"
+            ],
+            "brend": "Realme",
+            "general characteristics": {
+              "guarantee": "12 months",
+              "model": "iPhone 14 Plus",
+              "year of announcement": "2022",
+              "os type": "iOS 16",
+              "os": "iOS"
+            },
+            "screen": {
+              "screen type": "Super Retina XDR OLED",
+              "screen resolution": "1284 x 2778",
+              "screen size": "6.7 inch"
+            },
+            "cameras": {
+              "front camera": "12 MP",
+              "main camera": "12 MP + 12MP"
+            },
+            "memory and processor": {
+              "chipset": "Apple A15 Bionic (5 nm)",
+              "number of processor cores": "Hexa-core",
+              "processor": "2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard",
+              "ram": "6 GB",
+              "memory card slot": false,
+              "rom": "512 GB"
+            },
+            "network": {
+              "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+              "internet access": "HSPA 42.2/5.76 Mbps, LTE-A, 5G, EV-DO Rev.A 3.1 Mbps",
+              "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2886, A2888",
+              "GPS": true,
+              "Bluetooth": true,
+              "wifi network": true,
+              "3g network": true,
+              "4g lte network": true
+            },
+            "nutrition": {
+              "battery type": "Li-Ion",
+              "battery capacity": "4323mAh"
+            },
+            "other": {
+              "weight": "203 g",
+              "thickness": "7.8 mm",
+              "length": "160.8 mm",
+              "width": "78.1 mm",
+              "number of sim cards": "Nano-SIM and/or eSIM"
             }
+          }
         ]
     }
 }

@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
+import {AiOutlineShoppingCart} from 'react-icons/ai'
+import emptyStar from '../../assets/icons/empty_star.png'
+import star from '../../assets/icons/star.png'
 import './ProductBox.css'
 
 export default function ProductBox({product}) {
   
-  const {id, title, thumbnail, price} = product
-  console.log(thumbnail);
+  const {id, title, thumbnail, price, rating} = product
+
+  const [initialRating, setInitialRating] = useState(rating)
+  const [ratingState, setRatingState] = useState(rating)
+  
   return (
     <div className='productbox_container'>
         <div className="productbox_thumbnail">
@@ -24,6 +30,23 @@ export default function ProductBox({product}) {
         </div>
         <div className="productbox_available" style={{background: product["is available"] ? "#9fda40": "#ff4448"}}>
           <span>{product["is available"] ? "Առկա է": "Առկա չէ"}</span>
+        </div>
+        <div className="productbox_shop_div">
+          <div className="productbox_rating_div" onMouseLeave={() => setRatingState(initialRating)}>
+            {
+              new Array(5).fill('').map((_, i) => {
+                return (
+                  <img src={i < ratingState ? star: emptyStar} alt="star" key={i} onMouseEnter={() => setRatingState(i + 1)} onClick={() => {setInitialRating(ratingState); product.rating = initialRating}} />
+                )
+              })
+            }
+          </div>
+          <div className="productbox_shopping">
+            <button>
+              <AiOutlineShoppingCart />
+              Գնել
+            </button>  
+          </div> 
         </div>
     </div>
   )

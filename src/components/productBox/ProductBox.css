@@ -62,4 +62,37 @@
   font-size: 14px;
   color: #fff;
   font-weight: 600;
+}
+.productbox_container .productbox_shop_div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+}
+.productbox_container .productbox_shop_div .productbox_rating_div {
+  display: flex;
+  gap: 5px;
+}
+.productbox_container .productbox_shop_div .productbox_rating_div img {
+  width: 14px;
+  height: 14px;
+}
+.productbox_container .productbox_shop_div .productbox_shopping button {
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  background: #3d97ee;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.productbox_container .productbox_shop_div .productbox_shopping button:hover {
+  background: #005acb;
+}
+.productbox_container .productbox_shop_div .productbox_shopping button svg {
+  font-size: 22px;
 }/*# sourceMappingURL=ProductBox.css.map */

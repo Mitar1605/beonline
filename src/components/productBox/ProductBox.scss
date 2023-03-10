@@ -64,4 +64,41 @@
             font-weight: 600;
         }
     }
+    .productbox_shop_div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 15px;
+        .productbox_rating_div{
+            display: flex;
+            gap: 5px;
+            img{
+                width: 14px;
+                height: 14px;
+            }
+        }
+        .productbox_shopping{
+            button{
+                font-size: 15px;
+                padding: 5px 10px;
+                border-radius: 3px;
+                border: none;
+                background: #3d97ee;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                cursor: pointer;
+                
+                &:hover{
+                    background: #005acb;
+                }
+
+                svg{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
 }

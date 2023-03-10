@@ -3,9 +3,10 @@ import useFetch from '../../hooks/useFetch'
 import ProductBox from '../productBox/ProductBox'
 import './ProductContainer.css'
 
-export default function ProductContainer() {
+export default function ProductContainer({productType}) {
 
-    const {isLoading, isError, data} = useFetch("http://localhost:3500/products", "smartphone")
+    const {isLoading, isError, data} = useFetch("http://localhost:3500/products", productType)
+    if (productType === "smartphone") data.length = 10
 
   return (
     <div className="product_container_main">

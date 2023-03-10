@@ -10,7 +10,9 @@ export default function HomePage() {
       <Slider />
       <div className="homepage_product_container">
         <p className='homepage_product_container_p'>Հեռախոսներ</p>
-        <ProductContainer />
+        <ProductContainer productType={"smartphone"} />
+        <p className='homepage_product_container_p'>Այլ առաջարկներ</p>
+        <ProductContainer productType={"noutbook"} />
       </div>
     </div>
   )
