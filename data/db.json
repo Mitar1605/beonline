@@ -1228,18 +1228,41 @@
     ]
   },
   "users": [
-    {},
     {
       "id": 1,
-      "email": "safaryanmxitar@gmail.com",
-      "password": "Ptptikmxo14",
-      "remeber": false
+      "email": "vardgesAslanyan@gmail.com",
+      "password": "hkdskfjhsdjkfsd",
+      "remeber": true
     },
     {
       "id": 2,
-      "email": "sadsadsa@gmail.com",
-      "password": "dsfdsfdsdsfds",
+      "email": "safayrnamxitar@gmail.com",
+      "password": "ghgfhgfhgfhfggfh",
       "remeber": false
+    },
+    {
+      "id": 3,
+      "email": "gfhgfhgf@gmail.com",
+      "password": "fghfghgfhfggf",
+      "remeber": false
+    },
+    {
+      "id": 4,
+      "email": "maksimka-maksim-2024@inbox.ru",
+      "password": "gfhfghfghfg",
+      "remeber": false
+    },
+    {
+      "id": 5,
+      "email": "aslanyanvkae@gmail.com",
+      "password": "dsfsdfsdsdfdsfsd",
+      "remeber": false
+    },
+    {
+      "id": 6,
+      "email": "safaryanmxitar@gmail.com",
+      "password": "Ptptikmxo14",
+      "remeber": true
     }
   ]
 }
