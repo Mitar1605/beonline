@@ -26,13 +26,6 @@ export default memo(function Auth() {
     }
   )
 
-  const newPut = {
-    id: 'aaaa',
-    email: 'uuuu',
-    password: 'asasdsa',
-    remeberMe: 'asdsadsa'
-  }
-
   const handle = (event) => {
     const newData = {...post}
     newData[event.target.name] = event.target.value
@@ -53,9 +46,17 @@ export default memo(function Auth() {
           Axios.post('http://localhost:3500/users', post)
           window.location = 'http://localhost:3000/'
 
-          remeberMe && localStorage.setItem('isAuth', JSON.stringify({val: true}))
-
-          remeberMe && localStorage.setItem('rememberUser', JSON.stringify(post))
+          if (remeberMe) {
+            localStorage.setItem('isAuth', JSON.stringify({val: true}))
+            localStorage.setItem('rememberUser', JSON.stringify(post))
+            sessionStorage.removeItem('isAuth', JSON.stringify({val: true}))
+            sessionStorage.removeItem('rememberUser', JSON.stringify(post))
+          }else{
+            sessionStorage.setItem('isAuth', JSON.stringify({val: true}))
+            sessionStorage.setItem('rememberUser', JSON.stringify(post))
+            localStorage.removeItem('isAuth', JSON.stringify({val: true}))
+            localStorage.removeItem('rememberUser', JSON.stringify(post))
+          }
           
         }else if (isRegister && users.some(user => user.email === post.email)) {
           alert('Այս էլ․ հասցեն արդեն գրանցված է')
@@ -65,8 +66,18 @@ export default memo(function Auth() {
           if (users.some(user => user.email === post.email)) {
             const user = users.find(user => user.email === post.email)
             if (user.password === post.password) {
-              localStorage.setItem('isAuth', JSON.stringify({val: true}))
-              localStorage.setItem('rememberUser', JSON.stringify(user))
+
+              if (remeberMe) {
+                localStorage.setItem('isAuth', JSON.stringify({val: true}))
+                localStorage.setItem('rememberUser', JSON.stringify(user))
+                sessionStorage.removeItem('isAuth', JSON.stringify({val: true}))
+                sessionStorage.removeItem('rememberUser', JSON.stringify(user))
+              }else{
+                sessionStorage.setItem('isAuth', JSON.stringify({val: true}))
+                sessionStorage.setItem('rememberUser', JSON.stringify(user))
+                localStorage.removeItem('isAuth', JSON.stringify({val: true}))
+                localStorage.removeItem('rememberUser', JSON.stringify(user))
+              }
 
               window.location = 'http://localhost:3000/'
             }else{
@@ -98,7 +109,7 @@ export default memo(function Auth() {
             <Link to='/'>Մոռացել եմ գաղտնաբառս</Link>
         </div>
         <div className="login_form_submit">
-            <button type='submit'>Մուտք</button>
+            <button type='submit'>{isRegister ? "Գրանցվել": "Մտնել"}</button>
         </div>
       </form>
     </div>

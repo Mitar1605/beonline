@@ -5,7 +5,7 @@ import './ProductContainer.css'
 
 export default function ProductContainer({productType}) {
 
-    const {isLoading, isError, data} = useFetch("http://localhost:3500/products", productType)
+    const {isLoading, isError, data} = useFetch("http://localhost:3500/" + productType)
     if (productType === "smartphone") data.length = 10
 
   return (

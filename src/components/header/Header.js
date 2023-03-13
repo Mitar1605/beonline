@@ -8,6 +8,7 @@ import './Header.css'
 
 export default function Header() {
   const {isAuth, initialUser} = useContext(isAuthContext)
+  
   return (
     <header>
         <div className="header_container">

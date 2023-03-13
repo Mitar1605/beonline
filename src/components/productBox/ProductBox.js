@@ -2,14 +2,47 @@ import React, { useState } from 'react'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import emptyStar from '../../assets/icons/empty_star.png'
 import star from '../../assets/icons/star.png'
+import axios from 'axios'
 import './ProductBox.css'
 
 export default function ProductBox({product}) {
   
   const {id, title, thumbnail, price, rating} = product
 
-  const [initialRating, setInitialRating] = useState(rating)
-  const [ratingState, setRatingState] = useState(rating)
+  const [newestRating, setNewestRating] = useState(rating)
+  
+  const calcRating = (rating) => {
+    return Math.floor(rating.reduce((aggr, el) => aggr + el, 0) / rating.length)
+  }
+
+  const [isRated, setIsRated] = useState(false)
+
+  const [initialRating, setInitialRating] = useState(calcRating(rating))
+  const [ratingState, setRatingState] = useState(calcRating(rating))  
+
+  const rateProduct = (product, newRating) => {
+    if (!isRated) {
+      const setRateData = async () => {
+        const getedProduct = await axios.get("http://localhost:3500/smartphone/" + product.id)
+        const productCopy = {...getedProduct.data}
+        setNewestRating(productCopy.rating)
+        productCopy.rating.push(newRating)
+        return axios.put("http://localhost:3500/smartphone/" + product.id, productCopy) 
+      }
+      setRateData()
+      setIsRated(true)
+    }else{
+      const setRateData = async () => {
+        const getedProduct = await axios.get("http://localhost:3500/smartphone/" + product.id)
+        const productCopy = {...getedProduct.data}
+        setNewestRating(productCopy.rating)
+        productCopy.rating.splice(productCopy.rating.length - 1, 1, newRating)
+
+        return axios.put("http://localhost:3500/smartphone/" + product.id, productCopy) 
+      }
+      setRateData()
+    }
+  }
   
   return (
     <div className='productbox_container'>
@@ -36,7 +69,11 @@ export default function ProductBox({product}) {
             {
               new Array(5).fill('').map((_, i) => {
                 return (
-                  <img src={i < ratingState ? star: emptyStar} alt="star" key={i} onMouseEnter={() => setRatingState(i + 1)} onClick={() => {setInitialRating(ratingState); product.rating = initialRating}} />
+                  <img src={i < ratingState ? star: emptyStar} alt="star" key={i} onMouseEnter={() => setRatingState(i + 1)} onClick={() => {
+                    setInitialRating(calcRating(newestRating));
+                    product.rating = newestRating;
+                    rateProduct(product, ratingState)
+                  }} />
                 )
               })
             }

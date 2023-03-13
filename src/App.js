@@ -10,8 +10,8 @@ export const isAuthContext = createContext()
 function App() {
   useScrollTop()
 
-  const isAuth = localStorage.getItem('isAuth') ? JSON.parse(localStorage.getItem('isAuth')).val: false
-  const initialUser = localStorage.getItem('rememberUser') ? JSON.parse(localStorage.getItem('rememberUser')): {}
+  const isAuth = sessionStorage.getItem('isAuth') ? JSON.parse(sessionStorage.getItem('isAuth')).val: localStorage.getItem('isAuth') ? JSON.parse(localStorage.getItem('isAuth')).val: false
+  const initialUser = sessionStorage.getItem('rememberUser') ? JSON.parse(sessionStorage.getItem('rememberUser')): localStorage.getItem('rememberUser') ? JSON.parse(localStorage.getItem('rememberUser')): {}
 
   return (
     <div className="App">
