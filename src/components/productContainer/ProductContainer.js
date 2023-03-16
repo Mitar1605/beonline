@@ -11,12 +11,12 @@ export default function ProductContainer({productType}) {
   return (
     <div className="product_container_main">
         {
-            isLoading && <div className='loading_div'><div className="loading"></div></div>
+            isLoading ? <div className='loading_div'><div className="loading"></div></div>:
+            isError ? <h1>Ohh, Something went worng!!</h1>: ''
         }
         <div className='product_container'>
             {
-                isError ? <h1>Ohh, Something went worng!!</h1>:
-                data.map(product => {
+                data && data.map(product => {
                     return (
                         <div key={product.id}>
                             <ProductBox product={product} />

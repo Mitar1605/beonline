@@ -2,7 +2,6 @@ import React, { memo, useState, useContext, useEffect } from 'react'
 import {Link} from 'react-router-dom'
 import useFetch from '../../hooks/useFetch'
 import { isAuthContext } from '../../App'
-import Axios from 'axios'
 import './Auth.css'
 
 export default memo(function Auth() {
@@ -43,7 +42,17 @@ export default memo(function Auth() {
       <form onSubmit={(e) => {
         e.preventDefault()
         if (isRegister && !users.some(user => user.email === post.email) && post.password.length >= 8) {
-          Axios.post('http://localhost:3500/users', post)
+          const postData = async () => {
+            return await fetch('http://localhost:3500/users', {
+              method: 'POST',
+              headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(post)
+            })
+          }
+          postData()
           window.location = 'http://localhost:3000/'
 
           if (remeberMe) {
@@ -114,4 +123,7 @@ export default memo(function Auth() {
       </form>
     </div>
   )
+}, (prevState, nextState) => {
+  if (JSON.stringify(prevState) !== JSON.stringify(nextState)) return true
+  return false
 })

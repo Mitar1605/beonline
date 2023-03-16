@@ -4,7 +4,34 @@
       "id": 1,
       "title": "Xiaomi Redmi Note 10 Pro 8GB/256GB 2021 (Onyx Gray)",
       "rating": [
-        4
+        4,
+        5,
+        3,
+        2,
+        5,
+        3
+      ],
+      "ratedUsers": [
+        {
+          "email": "safaryanmxitar@gmail.com",
+          "index": 1
+        },
+        {
+          "email": "serega39433@yandex.ru",
+          "index": 2
+        },
+        {
+          "email": "safar@gmail.com",
+          "index": 3
+        },
+        {
+          "email": "mxitar@gmail.com",
+          "index": 4
+        },
+        {
+          "email": "safarmxo@gmail.com",
+          "index": 5
+        }
       ],
       "price": 146900,
       "discounted price": 0,
@@ -79,6 +106,7 @@
       "rating": [
         4
       ],
+      "ratedUsers": [],
       "price": 146900,
       "discounted price": 0,
       "installment 36 months": "4,090դր.",
@@ -150,10 +178,9 @@
       "id": 3,
       "title": "Xiaomi Poco F4 8GB/256GB (Night Black)",
       "rating": [
-        3,
-        5,
-        5
+        3
       ],
+      "ratedUsers": [],
       "price": 207900,
       "discounted price": 0,
       "installment 36 months": "5,780դր.",
@@ -229,6 +256,7 @@
       "rating": [
         3
       ],
+      "ratedUsers": [],
       "price": 207900,
       "discounted price": 0,
       "installment 36 months": "5,780դր.",
@@ -304,6 +332,7 @@
       "rating": [
         3
       ],
+      "ratedUsers": [],
       "price": 207900,
       "discounted price": 0,
       "installment 36 months": "5,780դր.",
@@ -379,6 +408,7 @@
       "rating": [
         5
       ],
+      "ratedUsers": [],
       "price": 294900,
       "discounted price": 0,
       "installment 36 months": "8,200դր.",
@@ -451,6 +481,7 @@
       "rating": [
         4
       ],
+      "ratedUsers": [],
       "price": 613900,
       "discounted price": 649900,
       "installment 36 months": "17,060դր",
@@ -526,6 +557,7 @@
       "rating": [
         4
       ],
+      "ratedUsers": [],
       "price": 613900,
       "discounted price": 649900,
       "installment 36 months": "17,060դր",
@@ -601,6 +633,7 @@
       "rating": [
         4
       ],
+      "ratedUsers": [],
       "price": 613900,
       "discounted price": 649900,
       "installment 36 months": "17,060դր",
@@ -676,6 +709,7 @@
       "rating": [
         4
       ],
+      "ratedUsers": [],
       "price": 613900,
       "discounted price": 649900,
       "installment 36 months": "17,060դր",
@@ -751,6 +785,7 @@
       "rating": [
         4
       ],
+      "ratedUsers": [],
       "price": 485900,
       "discounted price": 519900,
       "installment 36 months": "13,500դր.",
@@ -826,6 +861,7 @@
       "rating": [
         4
       ],
+      "ratedUsers": [],
       "price": 485900,
       "discounted price": 519900,
       "installment 36 months": "13,500դր.",
@@ -901,6 +937,7 @@
       "rating": [
         3
       ],
+      "ratedUsers": [],
       "price": 48900,
       "discounted price": 0,
       "installment 36 months": "1,360դր.",
@@ -972,6 +1009,7 @@
       "rating": [
         3
       ],
+      "ratedUsers": [],
       "price": 48900,
       "discounted price": 0,
       "installment 36 months": "1,360դր.",
@@ -1043,6 +1081,7 @@
       "rating": [
         4
       ],
+      "ratedUsers": [],
       "price": 79900,
       "discounted price": 0,
       "installment 36 months": "2,220դր.",
@@ -1116,6 +1155,7 @@
       "rating": [
         4
       ],
+      "ratedUsers": [],
       "price": 679900,
       "discounted price": 699900,
       "installment 36 months": "18,890դր.",
@@ -1193,6 +1233,7 @@
       "rating": [
         4
       ],
+      "ratedUsers": [],
       "price": 349900,
       "discounted price": 0,
       "installment 36 months": "9,720դր.",
@@ -1308,6 +1349,36 @@
       "id": 8,
       "email": "safarMxo@gmail.com",
       "password": "Ptptikmxo14",
+      "remeber": true
+    },
+    {
+      "id": 9,
+      "email": "aslanyanvke@gmail.com",
+      "password": "Ptptikmxo14",
+      "remeber": false
+    },
+    {
+      "id": 12,
+      "email": "fghgfhgfhgf@gmail.com",
+      "password": "dsfdsfdsfsdfds",
+      "remeber": false
+    },
+    {
+      "id": 13,
+      "email": "safarmxo@gmail.com",
+      "password": "Ptptikmxo14",
+      "remeber": false
+    },
+    {
+      "id": 14,
+      "email": "fdlgjkldfjgldkf@gmail.com",
+      "password": "gfhfghfghfghgf",
+      "remeber": true
+    },
+    {
+      "id": 15,
+      "email": "ohhhyeahhhmyBabyyyy@gmail.com",
+      "password": "dfgdfgdfgdfgdf",
       "remeber": true
     }
   ]
