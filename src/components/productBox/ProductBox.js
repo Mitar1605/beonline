@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React, { useState, useContext, useEffect } from 'react'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import emptyStar from '../../assets/icons/empty_star.png'
 import star from '../../assets/icons/star.png'
@@ -15,7 +15,7 @@ export default function ProductBox({product}) {
 
   const [newestRating, setNewestRating] = useState(rating)
 
-  const {isAuth, initialUser} = useContext(isAuthContext)
+  const {isAuth, initialUser, handleShopList, handlePostShopDataUser} = useContext(isAuthContext)
 
   const [initialRating, setInitialRating] = useState(calcRating(rating))
   const [ratingState, setRatingState] = useState(calcRating(rating))  
@@ -28,7 +28,6 @@ export default function ProductBox({product}) {
   function calcRating (rating) {
     return Math.floor(rating.reduce((aggr, el) => aggr + el, 0) / rating.length)
   }
-
 
   const setRatedUserFunc = (i) => {
     const ratedUserCopy = {...ratedUser}
@@ -48,7 +47,7 @@ export default function ProductBox({product}) {
         productCopy.ratedUsers.push(ratedUser)
   
         const setRateData = async () => {
-          return Axios.put("http://localhost:3500/smartphone/" + product.id, productCopy) 
+          return await Axios.put("http://localhost:3500/smartphone/" + product.id, productCopy) 
         }
         setRateData()
       }else{
@@ -57,7 +56,7 @@ export default function ProductBox({product}) {
         productCopy.rating.splice(initialRatedUser.index, 1, newRating)
   
         const setRateData = async () => {
-          return Axios.put("http://localhost:3500/smartphone/" + product.id, productCopy) 
+          return await Axios.put("http://localhost:3500/smartphone/" + product.id, productCopy) 
         }
         setRateData()
       }
@@ -101,10 +100,13 @@ export default function ProductBox({product}) {
             }
           </div>
           <div className="productbox_shopping">
-            <button>
+            <button onClick={() => {
+              handleShopList(data)
+              handlePostShopDataUser()
+            }}>
               <AiOutlineShoppingCart />
               Գնել
-            </button>  
+            </button>
           </div> 
         </div>
     </div>

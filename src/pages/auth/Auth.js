@@ -21,7 +21,9 @@ export default memo(function Auth() {
       id: users.length,
       email: '',
       password: '',
-      remeber: remeberMe
+      shopList: [],
+      wishList: [],
+      buyedList: []
     }
   )
 
@@ -33,7 +35,6 @@ export default memo(function Auth() {
 
   useEffect(() => {
     const newData = {...post}
-    newData.remeber = remeberMe
     setPost(newData)
   }, [remeberMe])
 

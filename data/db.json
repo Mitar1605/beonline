@@ -4,35 +4,9 @@
       "id": 1,
       "title": "Xiaomi Redmi Note 10 Pro 8GB/256GB 2021 (Onyx Gray)",
       "rating": [
-        4,
-        5,
-        3,
-        2,
-        5,
-        3
+        4
       ],
-      "ratedUsers": [
-        {
-          "email": "safaryanmxitar@gmail.com",
-          "index": 1
-        },
-        {
-          "email": "serega39433@yandex.ru",
-          "index": 2
-        },
-        {
-          "email": "safar@gmail.com",
-          "index": 3
-        },
-        {
-          "email": "mxitar@gmail.com",
-          "index": 4
-        },
-        {
-          "email": "safarmxo@gmail.com",
-          "index": 5
-        }
-      ],
+      "ratedUsers": [],
       "price": 146900,
       "discounted price": 0,
       "installment 36 months": "4,090դր.",
@@ -104,9 +78,15 @@
       "id": 2,
       "title": "Xiaomi Redmi Note 10 Pro 8GB/256GB 2021 (Glacier Blue)",
       "rating": [
-        4
+        4,
+        3
       ],
-      "ratedUsers": [],
+      "ratedUsers": [
+        {
+          "email": "safaryanmxitar@gmail.com",
+          "index": 1
+        }
+      ],
       "price": 146900,
       "discounted price": 0,
       "installment 36 months": "4,090դր.",
@@ -178,9 +158,15 @@
       "id": 3,
       "title": "Xiaomi Poco F4 8GB/256GB (Night Black)",
       "rating": [
-        3
+        3,
+        5
       ],
-      "ratedUsers": [],
+      "ratedUsers": [
+        {
+          "email": "safaryanmxitar@gmail.com",
+          "index": 1
+        }
+      ],
       "price": 207900,
       "discounted price": 0,
       "installment 36 months": "5,780դր.",
@@ -1307,79 +1293,25 @@
       "id": 1,
       "email": "safaryanmxitar@gmail.com",
       "password": "Ptptikmxo14",
-      "remeber": true
+      "shopList": [],
+      "wishList": [],
+      "buyedList": []
     },
     {
       "id": 2,
-      "email": "asdsad",
-      "password": "dsfdsfdsfdsfds",
-      "remeber": false
+      "email": "test1@gmail.com",
+      "password": "Ptptikmxo14",
+      "shopList": [],
+      "wishList": [],
+      "buyedList": []
     },
     {
       "id": 3,
-      "email": "serega39433@yandex.ru",
-      "password": "65484642123",
-      "remeber": false
-    },
-    {
-      "id": 4,
-      "email": "seregaasd39433@yandex.ru",
-      "password": "gfhgfhgfhgfhgf",
-      "remeber": false
-    },
-    {
-      "id": 5,
-      "email": "asdsad@gmail.com",
-      "password": "dsfdsfdsfdsfds",
-      "remeber": true
-    },
-    {
-      "id": 6,
-      "email": "safar@gmail.com",
+      "email": "test2@gmail.com",
       "password": "Ptptikmxo14",
-      "remeber": false
-    },
-    {
-      "id": 7,
-      "email": "mxitar@gmail.com",
-      "password": "Ptptikmxo14",
-      "remeber": false
-    },
-    {
-      "id": 8,
-      "email": "safarMxo@gmail.com",
-      "password": "Ptptikmxo14",
-      "remeber": true
-    },
-    {
-      "id": 9,
-      "email": "aslanyanvke@gmail.com",
-      "password": "Ptptikmxo14",
-      "remeber": false
-    },
-    {
-      "id": 12,
-      "email": "fghgfhgfhgf@gmail.com",
-      "password": "dsfdsfdsfsdfds",
-      "remeber": false
-    },
-    {
-      "id": 13,
-      "email": "safarmxo@gmail.com",
-      "password": "Ptptikmxo14",
-      "remeber": false
-    },
-    {
-      "id": 14,
-      "email": "fdlgjkldfjgldkf@gmail.com",
-      "password": "gfhfghfghfghgf",
-      "remeber": true
-    },
-    {
-      "id": 15,
-      "email": "ohhhyeahhhmyBabyyyy@gmail.com",
-      "password": "dfgdfgdfgdfgdf",
-      "remeber": true
+      "shopList": [],
+      "wishList": [],
+      "buyedList": []
     }
   ]
 }
