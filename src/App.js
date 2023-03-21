@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, useState } from 'react';
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
 import Header from './components/header/Header';
@@ -15,7 +15,6 @@ function App() {
   const initialUser = sessionStorage.getItem('rememberUser') ? JSON.parse(sessionStorage.getItem('rememberUser')): localStorage.getItem('rememberUser') ? JSON.parse(localStorage.getItem('rememberUser')): {}
   
   const [shopList, setShopList] = useState(initialUser.shopList ? initialUser.shopList: [])
-  const [wishList, setWishList] = useState(initialUser.wishList ? initialUser.wishList: [])
 
   const [postShopDataUser, setPostShopDataUser] = useState(initialUser)
   

@@ -21,9 +21,7 @@ export default memo(function Auth() {
       id: users.length,
       email: '',
       password: '',
-      shopList: [],
-      wishList: [],
-      buyedList: []
+      shopList: []
     }
   )
 
