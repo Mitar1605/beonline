@@ -3,9 +3,9 @@ import useFetch from '../../hooks/useFetch'
 import ProductBox from '../productBox/ProductBox'
 import './ProductContainer.css'
 
-export default function ProductContainer({productType}) {
+export default function ProductContainer({productType, shopList}) {
 
-    const {isLoading, isError, data} = useFetch("http://localhost:3500/" + productType)
+    const {isLoading, isError, data} = useFetch(`http://localhost:3500/${productType ? productType: 'smartphone'}`)
     if (productType === "smartphone") data.length = 10
 
   return (
@@ -16,13 +16,19 @@ export default function ProductContainer({productType}) {
         }
         <div className='product_container'>
             {
-                data && data.map(product => {
+                productType ? data.map(product => {
                     return (
                         <div key={product.id}>
                             <ProductBox product={product} />
                         </div>
                     )
-                })
+                }): shopList ? shopList.map(product => {
+                    return (
+                        <div key={product.id}>
+                            <ProductBox product={product} />
+                        </div>
+                    )
+                }): ''
             }
         </div>
     </div>

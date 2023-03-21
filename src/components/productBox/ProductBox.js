@@ -9,14 +9,16 @@ import './ProductBox.css'
 
 export default function ProductBox({product}) {
 
-  const {data} = useFetch("http://localhost:3500/smartphone/" + product.id)
-  
+  const {data} = useFetch(`http://localhost:3500/${product.type}/${product.id}`)
+
   const {id, title, thumbnail, price, rating} = product
-
+  
   const [newestRating, setNewestRating] = useState(rating)
-
-  const {isAuth, initialUser, handleShopList, handlePostShopDataUser} = useContext(isAuthContext)
-
+  
+  const {isAuth, initialUser, shopList, handlePostShopDataUser} = useContext(isAuthContext)
+  
+  const [inShop, setInShop] = useState(shopList.find(el => el.id === product.id) ? true: false)
+  
   const [initialRating, setInitialRating] = useState(calcRating(rating))
   const [ratingState, setRatingState] = useState(calcRating(rating))  
 
@@ -47,7 +49,7 @@ export default function ProductBox({product}) {
         productCopy.ratedUsers.push(ratedUser)
   
         const setRateData = async () => {
-          return await Axios.put("http://localhost:3500/smartphone/" + product.id, productCopy) 
+          return await Axios.put(`http://localhost:3500/${product.type}/${product.id}`, productCopy) 
         }
         setRateData()
       }else{
@@ -56,7 +58,7 @@ export default function ProductBox({product}) {
         productCopy.rating.splice(initialRatedUser.index, 1, newRating)
   
         const setRateData = async () => {
-          return await Axios.put("http://localhost:3500/smartphone/" + product.id, productCopy) 
+          return await Axios.put(`http://localhost:3500/${product.type}/${product.id}`, productCopy) 
         }
         setRateData()
       }
@@ -101,11 +103,10 @@ export default function ProductBox({product}) {
           </div>
           <div className="productbox_shopping">
             <button onClick={() => {
-              handleShopList(data)
-              handlePostShopDataUser()
+              handlePostShopDataUser(data, setInShop)
             }}>
               <AiOutlineShoppingCart />
-              Գնել
+              { !inShop ? "Գնել": "Զամբ. է"}
             </button>
           </div> 
         </div>

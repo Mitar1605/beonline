@@ -1,0 +1,72 @@
+tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+tr .title_main_td {
+  display: flex;
+  align-items: center;
+}
+tr .title_main_td .image_td {
+  width: 80px;
+}
+tr .title_main_td .image_td img {
+  width: 100%;
+}
+tr .title_main_td .title_td {
+  font-size: 14px;
+}
+tr .title_main_td .title_td a {
+  text-decoration: none;
+  color: #337ab7;
+}
+tr .title_main_td .title_td a:hover {
+  text-decoration: underline;
+}
+tr .title_main_td .title_td p {
+  margin-top: 10px;
+}
+tr .pricees_td {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+tr .pricees_td .qunatity_td {
+  width: 80px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+tr .pricees_td .qunatity_td .quantity_button {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+tr .pricees_td .qunatity_td p {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+tr .pricees_td .padPrice_td {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+tr .pricees_td .padPrice_td p {
+  font-weight: 600;
+}
+tr .pricees_td .padPrice_td button {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #337ab7;
+}
+tr .pricees_td .padPrice_td button:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=BasketBox.css.map */

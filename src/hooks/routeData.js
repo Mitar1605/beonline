@@ -1,10 +1,11 @@
 import HomePage from "../pages/homepage/HomePage"
 import Auth from "../pages/auth/Auth"
+import Shop from "../pages/shop/Shop"
 
 export const authUserRoutes = [
     {
-        path: '/',
-        component: <HomePage /> 
+        path: '/shop',
+        component: <Shop /> 
     }
 ]
 

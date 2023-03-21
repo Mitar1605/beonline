@@ -2,6 +2,7 @@
   "smartphone": [
     {
       "id": 1,
+      "type": "smartphone",
       "title": "Xiaomi Redmi Note 10 Pro 8GB/256GB 2021 (Onyx Gray)",
       "rating": [
         4
@@ -76,6 +77,7 @@
     },
     {
       "id": 2,
+      "type": "smartphone",
       "title": "Xiaomi Redmi Note 10 Pro 8GB/256GB 2021 (Glacier Blue)",
       "rating": [
         4,
@@ -156,6 +158,7 @@
     },
     {
       "id": 3,
+      "type": "smartphone",
       "title": "Xiaomi Poco F4 8GB/256GB (Night Black)",
       "rating": [
         3,
@@ -238,6 +241,7 @@
     },
     {
       "id": 4,
+      "type": "smartphone",
       "title": "Xiaomi Poco F4 8GB/256GB (Nebula Green)",
       "rating": [
         3
@@ -314,6 +318,7 @@
     },
     {
       "id": 5,
+      "type": "smartphone",
       "title": "Xiaomi Poco F4 8GB/256GB (Moonlight Silver)",
       "rating": [
         3
@@ -390,6 +395,7 @@
     },
     {
       "id": 6,
+      "type": "smartphone",
       "title": "Xiaomi 12T Pro 8GB/256GB (Black)",
       "rating": [
         5
@@ -463,6 +469,7 @@
     },
     {
       "id": 7,
+      "type": "smartphone",
       "title": "Samsung Galaxy S23 Ultra 256GB (Light Pink)",
       "rating": [
         4
@@ -539,6 +546,7 @@
     },
     {
       "id": 8,
+      "type": "smartphone",
       "title": "Samsung Galaxy S23 Ultra 256GB (Green)",
       "rating": [
         4
@@ -615,6 +623,7 @@
     },
     {
       "id": 9,
+      "type": "smartphone",
       "title": "Samsung Galaxy S23 Ultra 256GB (Black)",
       "rating": [
         4
@@ -691,6 +700,7 @@
     },
     {
       "id": 10,
+      "type": "smartphone",
       "title": "Samsung Galaxy S23 Ultra 256GB (Beige)",
       "rating": [
         4
@@ -767,6 +777,7 @@
     },
     {
       "id": 11,
+      "type": "smartphone",
       "title": "Samsung Galaxy S23+ 256GB (Light Pink)",
       "rating": [
         4
@@ -843,6 +854,7 @@
     },
     {
       "id": 12,
+      "type": "smartphone",
       "title": "Samsung Galaxy S23+ 256GB (Green)",
       "rating": [
         4
@@ -919,6 +931,7 @@
     },
     {
       "id": 13,
+      "type": "smartphone",
       "title": "Realme C30s 2GB/32GB (Stripe Blue)",
       "rating": [
         3
@@ -991,6 +1004,7 @@
     },
     {
       "id": 14,
+      "type": "smartphone",
       "title": "Realme C30s 2GB/32GB (Stripe Black)",
       "rating": [
         3
@@ -1063,6 +1077,7 @@
     },
     {
       "id": 15,
+      "type": "smartphone",
       "title": "Realme C35 4GB/64GB (Green)",
       "rating": [
         4
@@ -1137,6 +1152,7 @@
     },
     {
       "id": 16,
+      "type": "smartphone",
       "title": "iPhone 14 Plus 512GB (Starlight)",
       "rating": [
         4
@@ -1214,12 +1230,19 @@
   ],
   "noutbook": [
     {
-      "id": 1,
+      "id": 100,
+      "type": "noutbook",
       "title": "PC Notebook HP 250 G9 Intel Core i5-1235U 512GB (Black)",
       "rating": [
-        4
+        4,
+        1
       ],
-      "ratedUsers": [],
+      "ratedUsers": [
+        {
+          "email": "safaryanmxitar@gmail.com",
+          "index": 1
+        }
+      ],
       "price": 349900,
       "discounted price": 0,
       "installment 36 months": "9,720դր.",
@@ -1293,7 +1316,160 @@
       "id": 1,
       "email": "safaryanmxitar@gmail.com",
       "password": "Ptptikmxo14",
-      "shopList": [],
+      "shopList": [
+        {
+          "id": 1,
+          "type": "smartphone",
+          "title": "Xiaomi Redmi Note 10 Pro 8GB/256GB 2021 (Onyx Gray)",
+          "rating": [
+            4
+          ],
+          "ratedUsers": [],
+          "price": 146900,
+          "discounted price": 0,
+          "installment 36 months": "4,090դր.",
+          "installment 24 months": "6,130դր.",
+          "installment 12 months": "12,250դր.",
+          "ram": "8 GB",
+          "rom": "256 GB",
+          "year of announcement": "2021",
+          "available colors": [
+            "blue",
+            "gray"
+          ],
+          "color": "gray",
+          "quantity": 1,
+          "is available": true,
+          "thumbnail": [
+            "https://www.mobilecentre.am/img/prodpic/c711b6c925829f6a7f5f%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__15_.png",
+            "https://www.mobilecentre.am/img/prodpic/df9bb06d02a3b557152d%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__19_.png",
+            "https://www.mobilecentre.am/img/prodpic/d8a49ce91e63e1e028de%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__18_.png"
+          ],
+          "brend": "Xiaomi",
+          "general characteristics": {
+            "guarantee": "12 months",
+            "model": "Xiaomi Redmi Note 10 Pro",
+            "year of announcement": "2021",
+            "os type": "Android 11",
+            "os": "Android"
+          },
+          "screen": {
+            "screen type": "AMOLED",
+            "screen resolution": "1080 x 2400",
+            "screen size": "6.67 inch"
+          },
+          "cameras": {
+            "front camera": "16 MP",
+            "main camera": "108MP + 8MP + 5MP + 2MP"
+          },
+          "memory and processor": {
+            "chipset": "Qualcomm SM7150 Snapdragon 732G (8 nm)",
+            "number of processor cores": "Octa-core",
+            "processor": "2x2.3 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver",
+            "ram": "8 GB",
+            "memory card slot": true,
+            "rom": "256 GB"
+          },
+          "network": {
+            "standard network": "GSM / HSPA / LTE",
+            "internet access": "HSPA, LTE-A (CA)",
+            "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 20, 28, 32, 38, 40, 41",
+            "GPS": true,
+            "Bluetooth": true,
+            "wifi network": true,
+            "3g network": true,
+            "4g lte network": true
+          },
+          "nutrition": {
+            "battery type": "Li-Po",
+            "battery capacity": "5020mAh"
+          },
+          "other": {
+            "weight": "193 g",
+            "thickness": "8.1 mm",
+            "length": "164 mm",
+            "width": "76.5 mm",
+            "number of sim cards": "Nano-SIM or Dual SIM"
+          }
+        },
+        {
+          "id": 9,
+          "type": "smartphone",
+          "title": "Samsung Galaxy S23 Ultra 256GB (Black)",
+          "rating": [
+            4
+          ],
+          "ratedUsers": [],
+          "price": 613900,
+          "discounted price": 649900,
+          "installment 36 months": "17,060դր",
+          "installment 24 months": "25,580դր.",
+          "installment 12 months": "51,160դր.",
+          "ram": "12 GB",
+          "rom": "256 GB",
+          "year of announcement": "2023",
+          "available colors": [
+            "white",
+            "green",
+            "pink",
+            "black"
+          ],
+          "color": "black",
+          "quantity": 1,
+          "is available": true,
+          "thumbnail": [
+            "https://www.mobilecentre.am/img/prodpic/35e8336273c83105edf9%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__9_.jpg",
+            "https://www.mobilecentre.am/img/prodpic/28d3cbd916369ee2fffe%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__10_.jpg",
+            "https://www.mobilecentre.am/img/prodpic/d468159af7156b211452%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__6_.jpg"
+          ],
+          "brend": "Samsung",
+          "general characteristics": {
+            "guarantee": "12 months",
+            "model": "Samsung Galaxy S23 Ultra",
+            "year of announcement": "2023",
+            "os type": "Android 13",
+            "os": "Android"
+          },
+          "screen": {
+            "screen type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
+            "screen resolution": "1440 x 3088",
+            "screen size": "6.8 inch"
+          },
+          "cameras": {
+            "front camera": "12 MP",
+            "main camera": "200 MP + 10 MP + 10 MP + 12 MP"
+          },
+          "memory and processor": {
+            "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
+            "number of processor cores": "Octa-core",
+            "processor": "1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
+            "ram": "12 GB",
+            "memory card slot": false,
+            "rom": "256 GB"
+          },
+          "network": {
+            "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+            "internet access": "HSPA, LTE-A (CA), 5G",
+            "4G LTE Network Range": "LTE",
+            "GPS": true,
+            "Bluetooth": true,
+            "wifi network": true,
+            "3g network": true,
+            "4g lte network": true
+          },
+          "nutrition": {
+            "battery type": "Li-Po",
+            "battery capacity": "5000mAh"
+          },
+          "other": {
+            "weight": "234 g",
+            "thickness": "8.9 mm",
+            "length": "163.4 mm",
+            "width": "78.1 mm",
+            "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
+          }
+        }
+      ],
       "wishList": [],
       "buyedList": []
     },

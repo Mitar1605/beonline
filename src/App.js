@@ -14,32 +14,35 @@ function App() {
   const isAuth = sessionStorage.getItem('isAuth') ? JSON.parse(sessionStorage.getItem('isAuth')).val: localStorage.getItem('isAuth') ? JSON.parse(localStorage.getItem('isAuth')).val: false
   const initialUser = sessionStorage.getItem('rememberUser') ? JSON.parse(sessionStorage.getItem('rememberUser')): localStorage.getItem('rememberUser') ? JSON.parse(localStorage.getItem('rememberUser')): {}
   
-  const [shopList, setShopList] = useState(initialUser.shopList)
-  const [wishList, setWishList] = useState(initialUser.wishList)
+  const [shopList, setShopList] = useState(initialUser.shopList ? initialUser.shopList: [])
+  const [wishList, setWishList] = useState(initialUser.wishList ? initialUser.wishList: [])
 
   const [postShopDataUser, setPostShopDataUser] = useState(initialUser)
-
-  const handleShopList = (product) => {
-    setShopList([
-      ...shopList,
-      product
-    ])
+  
+  const handlePostShopDataUser = (product, setInShop) => {
+    if (isAuth) {
+      if (!shopList.find(el => el.id === product.id)){
+        const shopListCopy = [
+          ...shopList,
+          product
+        ]
+        setShopList(shopListCopy)
+        const postShopDataUserCopy = {...postShopDataUser}
+        postShopDataUserCopy.shopList = shopListCopy
+        setPostShopDataUser(postShopDataUserCopy)
+  
+        Axios.put('http://localhost:3500/users/' + postShopDataUserCopy.id, postShopDataUserCopy)
+  
+        sessionStorage.getItem('rememberUser') ? sessionStorage.setItem('rememberUser', JSON.stringify(postShopDataUserCopy)): localStorage.getItem('rememberUser') && localStorage.setItem('rememberUser', JSON.stringify(postShopDataUserCopy))
+  
+        setInShop(true)
+      }else alert("Արդեն ավելացված է զամբյուղում!")
+    }else alert('Մինչև զամբյուղում ինչ-որ բան ավելացնելը անհրաժեշտ է գրանցվել')
   }
-  console.log(shopList);
-
-  const handlePostShopDataUser = () => {
-    const postShopDataUserCopy = {...postShopDataUser}
-    postShopDataUserCopy.shopList = shopList,
-    postShopDataUserCopy.wishList = wishList,
-    setPostShopDataUser(postShopDataUserCopy)
-  }
-
-  console.log(postShopDataUser)
-
 
   return (
     <div className="App">
-      <isAuthContext.Provider value={{isAuth, initialUser, handleShopList, handlePostShopDataUser}}>
+      <isAuthContext.Provider value={{isAuth, initialUser, shopList, setShopList, handlePostShopDataUser}}>
         <Header />
         <div className="header_space"></div>
         <Routes>

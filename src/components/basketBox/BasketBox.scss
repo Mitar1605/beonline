@@ -1,0 +1,74 @@
+tr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title_main_td{
+        display: flex;
+        align-items: center;
+        .image_td{
+            width: 80px;
+            img{
+                width: 100%;
+            }
+        }
+        .title_td{
+            font-size: 14px;
+            a{
+                text-decoration: none;
+                color: #337ab7;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+            p{
+                margin-top: 10px;
+            }
+        }
+    }
+    .pricees_td{
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .qunatity_td{
+            width: 80px;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            .quantity_button{
+                background: none;
+                border: none;
+                font-size: 28px;
+                cursor: pointer;
+                
+            }
+            p{
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+        }
+        .padPrice_td{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            p{
+                font-weight: 600;
+            }
+            button{
+                display: flex;
+                align-items: center;
+                gap: 2px;
+                background: none;
+                border: none;
+                cursor: pointer;
+                color: #337ab7;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

@@ -37,12 +37,27 @@ header .haeder_content nav ul li a {
   padding: 10px;
   text-decoration: none;
   font-size: 14px;
+  position: relative;
 }
 header .haeder_content nav ul li a svg {
   font-size: 24px;
 }
 header .haeder_content nav ul li a span {
   margin-left: 10px;
+}
+header .haeder_content nav ul li a strong {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 10px;
 }
 header .haeder_content nav ul li h4 {
   font-weight: 400;
