@@ -12,7 +12,7 @@ export default function ProductBox({product}) {
 
   const {id, title, images, type, price, rating} = product
   
-  const {isAuth, initialUser, shopList, handlePostShopDataUser} = useContext(isAuthContext)
+  const {shopList, handlePostShopDataUser} = useContext(isAuthContext)
   
   const [inShop, setInShop] = useState(shopList.find(el => el.id === product.id) ? true: false)
   

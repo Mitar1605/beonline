@@ -69,6 +69,87 @@
                         }
                     }
                 }
+                .product_content_info_price{
+                    width: 100%;
+                    padding: 30px 0;
+                    margin: 10px 0;
+                    border-top: 1px solid lightgrey;
+                    border-bottom: 1px solid lightgrey;
+                    .product_content_info_price_quantity{
+                        width: 100%;
+                        .qunatity_td{
+                            width: 80px;
+                            justify-content: space-between;
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            .quantity_button{
+                                background: none;
+                                border: none;
+                                font-size: 28px;
+                                cursor: pointer;
+                            }
+                            h2{
+                                color: #333;
+                            }
+                            p{
+                                font-weight: 600;
+                                margin-bottom: 5px;
+                            }
+                        }
+                    }
+                }
+                .product_content_info{
+                    width: 100%;
+                    margin-top: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    .product_content_info_card{
+                        width: 50%;
+                        display: flex;
+                        justify-content: space-between;
+                        span{
+                            color: grey;
+                            font-size: 14px;
+                        }
+                        p{
+                            font-weight: 600;
+                            font-size: 14px;
+                        }
+                    .product_content_info_color_box{
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        .product_content_info_color_card{
+                            border-radius: 3px;
+                        }
+                    }
+                    }
+                }
+                .buy_button{
+                    margin-top: 10px;
+                    button{
+                        font-size: 15px;
+                        padding: 7px 30px;
+                        border-radius: 3px;
+                        border: none;
+                        background: #3d97ee;
+                        color: #fff;
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        cursor: pointer;
+                        
+                        &:hover{
+                            background: #005acb;
+                        }
+        
+                        svg{
+                            font-size: 22px;
+                        }
+                    }
+                }
             }
         }
     }

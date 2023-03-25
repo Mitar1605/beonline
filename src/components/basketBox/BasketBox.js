@@ -10,7 +10,8 @@ export default memo(function BasketBox({product}) {
   const {initialUser, shopList, setShopList} = useContext(isAuthContext)
   const [postShopDataUser, setPostShopDataUser] = useState(initialUser)
   
-  const {id, title, price, thumbnail} = product
+  const {id, title, type, price, images} = product
+  console.log(product);
 
   const priceComma = (price) => {
     const numFor = Intl.NumberFormat('en-US');
@@ -50,10 +51,10 @@ export default memo(function BasketBox({product}) {
     <tr>
       <td className='title_main_td'>
         <div className='image_td'>
-          <img src={thumbnail[0]} alt="product image" />
+          <img src={images && images[0]} alt="product image" />
         </div>
         <div className='title_td'>
-          <Link to='/'>{title}</Link>
+          <Link to={`/${type}/${product["general characteristics"].model}/${id}`}>{title}</Link>
           <p>{priceComma(price)}դր․</p>
         </div>
       </td>
