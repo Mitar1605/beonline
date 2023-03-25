@@ -1,0 +1,75 @@
+.product_page_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .product_container{
+        width: 95%;
+        margin: 10px 0;
+        background: #fff;
+        .product_container_content{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 20px;
+            .product_page_thumbnails_slider{
+                width: 40%;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .product_page_main_image{
+                    height: 85%;
+                    transform: scale(.7);
+                }
+                .product_page_thumbnails_slider_other_images{
+                    width: 100%;
+                    background: #fff;
+                    height: 15%;
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    position: absolute;
+                    bottom: 0;
+                    img{
+                        width: 80px;
+                        height: 100%;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .product_page_content_info{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                .product_content_info_title{
+                    width: 100%;
+                    p{
+                        font-size: 21px;
+                        font-weight: 600;
+                        color: #333;
+                    }
+                    .product_content_info_title_rating{
+                        width: 30%;
+                        margin: 15px 0;
+                        display: flex;
+                        justify-content: space-between;
+                        p{
+                            font-size: 14px;
+                        }
+                        .productbox_rating_div{
+                            display: flex;
+                            gap: 5px;
+                            cursor: pointer;
+                            img{
+                                width: 18px;
+                                height: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,6 +1,7 @@
 import HomePage from "../pages/homepage/HomePage"
 import Auth from "../pages/auth/Auth"
 import Shop from "../pages/shop/Shop"
+import ProductPage from "../pages/productPage/ProductPage"
 
 export const authUserRoutes = [
     {
@@ -17,5 +18,9 @@ export const guestRoutes = [
     {
         path: '/auth',
         component: <Auth />
+    },
+    {
+        path: '/:productType/:productTitle/:productId',
+        component: <ProductPage />
     }
 ]

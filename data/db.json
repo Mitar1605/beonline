@@ -5,9 +5,20 @@
       "type": "smartphone",
       "title": "Xiaomi Redmi Note 10 Pro 8GB/256GB 2021 (Onyx Gray)",
       "rating": [
-        4
+        4,
+        5,
+        5
       ],
-      "ratedUsers": [],
+      "ratedUsers": [
+        {
+          "email": "safaryanmxitar@gmail.com",
+          "index": 1
+        },
+        {
+          "email": "test1@gmail.com",
+          "index": 2
+        }
+      ],
       "price": 146900,
       "discounted price": 0,
       "installment 36 months": "4,090դր.",
@@ -23,7 +34,7 @@
       "color": "gray",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/c711b6c925829f6a7f5f%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__15_.png",
         "https://www.mobilecentre.am/img/prodpic/df9bb06d02a3b557152d%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__19_.png",
         "https://www.mobilecentre.am/img/prodpic/d8a49ce91e63e1e028de%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__18_.png"
@@ -104,7 +115,7 @@
       "color": "blue",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/322defc1c07f59821c06%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__20_.png",
         "https://www.mobilecentre.am/img/prodpic/b1baad99794b408d8538%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__22_.png",
         "https://www.mobilecentre.am/img/prodpic/80875a8f89320f5a486b%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__21_.png"
@@ -186,7 +197,7 @@
       "color": "black",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/5c37b51fa27faea07537%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__23_.png",
         "https://www.mobilecentre.am/img/prodpic/b1baad99794b408d8538%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__22_.png",
         "https://www.mobilecentre.am/img/prodpic/989ab49581a097623ec0%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__24_.png",
@@ -263,7 +274,7 @@
       "color": "green",
       "quantity": 1,
       "is available": false,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/39d272657b750ca00a8b%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__28_.png",
         "https://www.mobilecentre.am/img/prodpic/2490218064f268e514ce%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__32_.png",
         "https://www.mobilecentre.am/img/prodpic/8586948a5ad22c1786a8%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__30_.png",
@@ -340,7 +351,7 @@
       "color": "gray",
       "quantity": 1,
       "is available": false,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/39d272657b750ca00a8b%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__28_.png",
         "https://www.mobilecentre.am/img/prodpic/2490218064f268e514ce%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__32_.png",
         "https://www.mobilecentre.am/img/prodpic/8586948a5ad22c1786a8%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__30_.png",
@@ -415,7 +426,7 @@
       "color": "black",
       "quantity": 1,
       "is available": false,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/ff5282bdd4ddd4525343%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__8_.png",
         "https://www.mobilecentre.am/img/prodpic/8c10757a774c442aac35%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__10_.png",
         "https://www.mobilecentre.am/img/prodpic/e98f8137688e4571c918%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__9_.png"
@@ -492,7 +503,7 @@
       "color": "pink",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/58202204b8924240bdab%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__15_.jpg",
         "https://www.mobilecentre.am/img/prodpic/3fd45adb7b008da24c1a%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__13_.jpg",
         "https://www.mobilecentre.am/img/prodpic/04277d6c429fa874307a%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__12_.jpg"
@@ -569,7 +580,7 @@
       "color": "green",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/2811daadd91d3cb8d70d%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__17_.jpg",
         "https://www.mobilecentre.am/img/prodpic/62875bb5c4a2274dc2e9%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__18_.jpg",
         "https://www.mobilecentre.am/img/prodpic/629a3a8a36bcc3f99b36%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__16_.jpg"
@@ -646,7 +657,7 @@
       "color": "black",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/35e8336273c83105edf9%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__9_.jpg",
         "https://www.mobilecentre.am/img/prodpic/28d3cbd916369ee2fffe%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__10_.jpg",
         "https://www.mobilecentre.am/img/prodpic/d468159af7156b211452%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__6_.jpg"
@@ -723,7 +734,7 @@
       "color": "white",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/03c63cdf9fedd8012daf%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__5_.jpg",
         "https://www.mobilecentre.am/img/prodpic/d55701917b9917ef75c7%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__3_.jpg",
         "https://www.mobilecentre.am/img/prodpic/b2e7d067dadbdda765f4%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__2_.jpg"
@@ -800,7 +811,7 @@
       "color": "pink",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/d3eec1b6a16b2bd320af%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__5_.png",
         "https://www.mobilecentre.am/img/prodpic/a8a69bba80c537d55509%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__6_.png",
         "https://www.mobilecentre.am/img/prodpic/87f2bc103ad167c30619%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__2_.png"
@@ -877,7 +888,7 @@
       "color": "green",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/0260b86e93e2ad3eea48%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__3_.png",
         "https://www.mobilecentre.am/img/prodpic/f032f957f023d5765098%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__4_.png",
         "https://www.mobilecentre.am/img/prodpic/ba6d759bf3bc3b320c7d%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__7_.png"
@@ -952,7 +963,7 @@
       "color": "blue",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/46e2478d521f71215d5e%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__14_.png"
       ],
       "brend": "Realme",
@@ -1025,7 +1036,7 @@
       "color": "black",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/e71268361ac90818ff4c%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__15_.png"
       ],
       "brend": "Realme",
@@ -1098,7 +1109,7 @@
       "color": "green",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/bad98282fe6b8c941a1decb7140a28a6b642d409%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__46_.png",
         "https://www.mobilecentre.am/img/prodpic/cbcf1a6d5db17507fdc59dd7c356069099327dd5%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__48_.png",
         "https://www.mobilecentre.am/img/prodpic/44f0b4965416d0fd162b7bf7c6c52f834868a5b5%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__47_.png"
@@ -1175,7 +1186,7 @@
       "color": "lightblue",
       "quantity": 1,
       "is available": false,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/0e2d058bcd55828043311.png",
         "https://www.mobilecentre.am/img/prodpic/4709862b3d39d9d7ead62.png",
         "https://www.mobilecentre.am/img/prodpic/32e5683917e1d87342023.png"
@@ -1260,7 +1271,7 @@
       "color": "lightblue",
       "quantity": 1,
       "is available": true,
-      "thumbnail": [
+      "images": [
         "https://www.mobilecentre.am/img/prodpic/318319e38f820712ec3c%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__14_.png"
       ],
       "brend": "Realme",
@@ -1317,239 +1328,6 @@
       "email": "safaryanmxitar@gmail.com",
       "password": "Ptptikmxo14",
       "shopList": [
-        {
-          "id": 1,
-          "type": "smartphone",
-          "title": "Xiaomi Redmi Note 10 Pro 8GB/256GB 2021 (Onyx Gray)",
-          "rating": [
-            4
-          ],
-          "ratedUsers": [],
-          "price": 146900,
-          "discounted price": 0,
-          "installment 36 months": "4,090դր.",
-          "installment 24 months": "6,130դր.",
-          "installment 12 months": "12,250դր.",
-          "ram": "8 GB",
-          "rom": "256 GB",
-          "year of announcement": "2021",
-          "available colors": [
-            "blue",
-            "gray"
-          ],
-          "color": "gray",
-          "quantity": 1,
-          "is available": true,
-          "thumbnail": [
-            "https://www.mobilecentre.am/img/prodpic/c711b6c925829f6a7f5f%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__15_.png",
-            "https://www.mobilecentre.am/img/prodpic/df9bb06d02a3b557152d%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__19_.png",
-            "https://www.mobilecentre.am/img/prodpic/d8a49ce91e63e1e028de%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__18_.png"
-          ],
-          "brend": "Xiaomi",
-          "general characteristics": {
-            "guarantee": "12 months",
-            "model": "Xiaomi Redmi Note 10 Pro",
-            "year of announcement": "2021",
-            "os type": "Android 11",
-            "os": "Android"
-          },
-          "screen": {
-            "screen type": "AMOLED",
-            "screen resolution": "1080 x 2400",
-            "screen size": "6.67 inch"
-          },
-          "cameras": {
-            "front camera": "16 MP",
-            "main camera": "108MP + 8MP + 5MP + 2MP"
-          },
-          "memory and processor": {
-            "chipset": "Qualcomm SM7150 Snapdragon 732G (8 nm)",
-            "number of processor cores": "Octa-core",
-            "processor": "2x2.3 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver",
-            "ram": "8 GB",
-            "memory card slot": true,
-            "rom": "256 GB"
-          },
-          "network": {
-            "standard network": "GSM / HSPA / LTE",
-            "internet access": "HSPA, LTE-A (CA)",
-            "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 20, 28, 32, 38, 40, 41",
-            "GPS": true,
-            "Bluetooth": true,
-            "wifi network": true,
-            "3g network": true,
-            "4g lte network": true
-          },
-          "nutrition": {
-            "battery type": "Li-Po",
-            "battery capacity": "5020mAh"
-          },
-          "other": {
-            "weight": "193 g",
-            "thickness": "8.1 mm",
-            "length": "164 mm",
-            "width": "76.5 mm",
-            "number of sim cards": "Nano-SIM or Dual SIM"
-          }
-        },
-        {
-          "id": 100,
-          "type": "noutbook",
-          "title": "PC Notebook HP 250 G9 Intel Core i5-1235U 512GB (Black)",
-          "rating": [
-            4,
-            1
-          ],
-          "ratedUsers": [
-            {
-              "email": "safaryanmxitar@gmail.com",
-              "index": 1
-            }
-          ],
-          "price": 349900,
-          "discounted price": 0,
-          "installment 36 months": "9,720դր.",
-          "installment 24 months": "14,580դր.",
-          "installment 12 months": "29,160դր.",
-          "ram": "6 GB",
-          "rom": "512 GB",
-          "year of announcement": "2022",
-          "available colors": [
-            "red",
-            "lightblue",
-            "black",
-            "pink"
-          ],
-          "color": "lightblue",
-          "quantity": 1,
-          "is available": true,
-          "thumbnail": [
-            "https://www.mobilecentre.am/img/prodpic/318319e38f820712ec3c%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__14_.png"
-          ],
-          "brend": "Realme",
-          "general characteristics": {
-            "guarantee": "12 months",
-            "model": "iPhone 14 Plus",
-            "year of announcement": "2022",
-            "os type": "iOS 16",
-            "os": "iOS"
-          },
-          "screen": {
-            "screen type": "Super Retina XDR OLED",
-            "screen resolution": "1284 x 2778",
-            "screen size": "6.7 inch"
-          },
-          "cameras": {
-            "front camera": "12 MP",
-            "main camera": "12 MP + 12MP"
-          },
-          "memory and processor": {
-            "chipset": "Apple A15 Bionic (5 nm)",
-            "number of processor cores": "Hexa-core",
-            "processor": "2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard",
-            "ram": "6 GB",
-            "memory card slot": false,
-            "rom": "512 GB"
-          },
-          "network": {
-            "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-            "internet access": "HSPA 42.2/5.76 Mbps, LTE-A, 5G, EV-DO Rev.A 3.1 Mbps",
-            "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2886, A2888",
-            "GPS": true,
-            "Bluetooth": true,
-            "wifi network": true,
-            "3g network": true,
-            "4g lte network": true
-          },
-          "nutrition": {
-            "battery type": "Li-Ion",
-            "battery capacity": "4323mAh"
-          },
-          "other": {
-            "weight": "203 g",
-            "thickness": "7.8 mm",
-            "length": "160.8 mm",
-            "width": "78.1 mm",
-            "number of sim cards": "Nano-SIM and/or eSIM"
-          }
-        },
-        {
-          "id": 9,
-          "type": "smartphone",
-          "title": "Samsung Galaxy S23 Ultra 256GB (Black)",
-          "rating": [
-            4
-          ],
-          "ratedUsers": [],
-          "price": 613900,
-          "discounted price": 649900,
-          "installment 36 months": "17,060դր",
-          "installment 24 months": "25,580դր.",
-          "installment 12 months": "51,160դր.",
-          "ram": "12 GB",
-          "rom": "256 GB",
-          "year of announcement": "2023",
-          "available colors": [
-            "white",
-            "green",
-            "pink",
-            "black"
-          ],
-          "color": "black",
-          "quantity": 1,
-          "is available": true,
-          "thumbnail": [
-            "https://www.mobilecentre.am/img/prodpic/35e8336273c83105edf9%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__9_.jpg",
-            "https://www.mobilecentre.am/img/prodpic/28d3cbd916369ee2fffe%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__10_.jpg",
-            "https://www.mobilecentre.am/img/prodpic/d468159af7156b211452%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__6_.jpg"
-          ],
-          "brend": "Samsung",
-          "general characteristics": {
-            "guarantee": "12 months",
-            "model": "Samsung Galaxy S23 Ultra",
-            "year of announcement": "2023",
-            "os type": "Android 13",
-            "os": "Android"
-          },
-          "screen": {
-            "screen type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
-            "screen resolution": "1440 x 3088",
-            "screen size": "6.8 inch"
-          },
-          "cameras": {
-            "front camera": "12 MP",
-            "main camera": "200 MP + 10 MP + 10 MP + 12 MP"
-          },
-          "memory and processor": {
-            "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
-            "number of processor cores": "Octa-core",
-            "processor": "1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
-            "ram": "12 GB",
-            "memory card slot": false,
-            "rom": "256 GB"
-          },
-          "network": {
-            "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-            "internet access": "HSPA, LTE-A (CA), 5G",
-            "4G LTE Network Range": "LTE",
-            "GPS": true,
-            "Bluetooth": true,
-            "wifi network": true,
-            "3g network": true,
-            "4g lte network": true
-          },
-          "nutrition": {
-            "battery type": "Li-Po",
-            "battery capacity": "5000mAh"
-          },
-          "other": {
-            "weight": "234 g",
-            "thickness": "8.9 mm",
-            "length": "163.4 mm",
-            "width": "78.1 mm",
-            "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
-          }
-        },
         {
           "id": 7,
           "type": "smartphone",
@@ -1628,61 +1406,64 @@
           }
         },
         {
-          "id": 6,
+          "id": 8,
           "type": "smartphone",
-          "title": "Xiaomi 12T Pro 8GB/256GB (Black)",
+          "title": "Samsung Galaxy S23 Ultra 256GB (Green)",
           "rating": [
-            5
+            4
           ],
           "ratedUsers": [],
-          "price": 294900,
-          "discounted price": 0,
-          "installment 36 months": "8,200դր.",
-          "installment 24 months": "12,290դր.",
-          "installment 12 months": "24,580դր.",
-          "ram": "8 GB",
+          "price": 613900,
+          "discounted price": 649900,
+          "installment 36 months": "17,060դր",
+          "installment 24 months": "25,580դր.",
+          "installment 12 months": "51,160դր.",
+          "ram": "12 GB",
           "rom": "256 GB",
-          "year of announcement": "2022",
+          "year of announcement": "2023",
           "available colors": [
+            "white",
+            "green",
+            "pink",
             "black"
           ],
-          "color": "black",
+          "color": "green",
           "quantity": 1,
-          "is available": false,
+          "is available": true,
           "thumbnail": [
-            "https://www.mobilecentre.am/img/prodpic/ff5282bdd4ddd4525343%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__8_.png",
-            "https://www.mobilecentre.am/img/prodpic/8c10757a774c442aac35%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__10_.png",
-            "https://www.mobilecentre.am/img/prodpic/e98f8137688e4571c918%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__9_.png"
+            "https://www.mobilecentre.am/img/prodpic/2811daadd91d3cb8d70d%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__17_.jpg",
+            "https://www.mobilecentre.am/img/prodpic/62875bb5c4a2274dc2e9%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__18_.jpg",
+            "https://www.mobilecentre.am/img/prodpic/629a3a8a36bcc3f99b36%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__16_.jpg"
           ],
-          "brend": "Xiaomi",
+          "brend": "Samsung",
           "general characteristics": {
             "guarantee": "12 months",
-            "model": "Xiaomi 12T Pro",
-            "year of announcement": "2022",
-            "os type": "Android 12",
+            "model": "Samsung Galaxy S23 Ultra",
+            "year of announcement": "2023",
+            "os type": "Android 13",
             "os": "Android"
           },
           "screen": {
-            "screen type": "AMOLED",
-            "screen resolution": "1220 x 2712",
-            "screen size": "6.67 inch"
+            "screen type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
+            "screen resolution": "1440 x 3088",
+            "screen size": "6.8 inch"
           },
           "cameras": {
-            "front camera": "20 MP",
-            "main camera": "200 MP + 8 MP + 2 MP"
+            "front camera": "12 MP",
+            "main camera": "200 MP + 10 MP + 10 MP + 12 MP"
           },
           "memory and processor": {
-            "chipset": "Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)",
+            "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
             "number of processor cores": "Octa-core",
-            "processor": "1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x2.0 GHz Cortex-A510",
-            "ram": "8 GB",
+            "processor": "1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
+            "ram": "12 GB",
             "memory card slot": false,
             "rom": "256 GB"
           },
           "network": {
-            "standard network": "GSM / HSPA / LTE / 5G",
-            "internet access": "HSPA, LTE-A, 5G",
-            "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 42, 48, 66",
+            "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+            "internet access": "HSPA, LTE-A (CA), 5G",
+            "4G LTE Network Range": "LTE",
             "GPS": true,
             "Bluetooth": true,
             "wifi network": true,
@@ -1694,10 +1475,10 @@
             "battery capacity": "5000mAh"
           },
           "other": {
-            "weight": "205 g",
-            "thickness": "8.6 mm",
-            "length": "163.1 mm",
-            "width": "75.9 mm",
+            "weight": "234 g",
+            "thickness": "8.9 mm",
+            "length": "163.4 mm",
+            "width": "78.1 mm",
             "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
           }
         }
