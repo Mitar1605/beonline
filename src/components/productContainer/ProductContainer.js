@@ -1,7 +1,6 @@
 import React from 'react'
 import useFetch from '../../hooks/useFetch'
 import ProductBox from '../productBox/ProductBox'
-import {Link} from 'react-router-dom'
 import './ProductContainer.css'
 
 export default function ProductContainer({productType, shopList}) {

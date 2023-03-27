@@ -44,6 +44,7 @@ export default memo(function ProductPage() {
           product.isError ? <h1>Ohh, something went wrong!</h1> :
             product.data &&
             <div className="product_container">
+              <span className='productbox_available' style={{background: product.data["is available"] ? "#9fda40": "#ff4448"}}>{product.data["is available"] ? "Առկա է": "Առկա չէ"}</span>
               <div className="product_container_content">
                 <div className="product_page_thumbnails_slider">
                   <img src={images && images[imageSliderIndex]} alt="product image" className='product_page_main_image' />
@@ -72,7 +73,10 @@ export default memo(function ProductPage() {
                     </div>
                   </div>
                   <div className="product_content_info_price">
-                    <h2>{priceComma(price)}դր․</h2>
+                    <div className="product_content_info_price_div">
+                      <h2>{priceComma(price)}դր․</h2>
+                      <span>{product.data["discounted price"] ? priceComma(product.data["discounted price"]) + "դր․": ""}</span>
+                    </div>
                     <div className="product_content_info_price_quantity">
                       <div className='qunatity_td'>
                         <button className='quantity_button quantity_minus' onClick={removeQuantity}>
@@ -112,7 +116,7 @@ export default memo(function ProductPage() {
                     </div>
                     <div className="buy_button">
                         <button onClick={() => {
-                          handlePostShopDataUser(product.data, setInShop)
+                          handlePostShopDataUser(product.data, setInShop, quantity)
                         }}>
                           <AiOutlineShoppingCart />
                           {!inShop ? "Գնել" : "Զամբ. է"}

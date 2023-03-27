@@ -7,6 +7,13 @@
         width: 95%;
         margin: 10px 0;
         background: #fff;
+        .productbox_available{
+            position: absolute;
+            padding: 5px 10px;
+            font-size: 14px;
+            color: #fff;
+            font-weight: 600;
+        }
         .product_container_content{
             width: 100%;
             display: flex;
@@ -75,6 +82,20 @@
                     margin: 10px 0;
                     border-top: 1px solid lightgrey;
                     border-bottom: 1px solid lightgrey;
+                    .product_content_info_price_div{
+                        width: 35%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        h2{
+                            color: #333;
+                        }
+                        span{
+                            text-decoration: line-through;
+                            font-size: 14px;
+                            color: grey;
+                        }
+                    }
                     .product_content_info_price_quantity{
                         width: 100%;
                         .qunatity_td{

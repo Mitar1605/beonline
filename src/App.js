@@ -18,9 +18,11 @@ function App() {
 
   const [postShopDataUser, setPostShopDataUser] = useState(initialUser)
   
-  const handlePostShopDataUser = (product, setInShop) => {
+  const handlePostShopDataUser = (product, setInShop, quantity) => {
     if (isAuth) {
       if (!shopList.find(el => el.id === product.id)){
+       if (!quantity) quantity = 1
+        product.quantity = quantity
         const shopListCopy = [
           ...shopList,
           product

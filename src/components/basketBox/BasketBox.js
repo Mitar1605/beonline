@@ -31,7 +31,7 @@ export default memo(function BasketBox({product}) {
     sessionStorage.getItem('rememberUser') ? sessionStorage.setItem('rememberUser', JSON.stringify(postShopDataUserCopy)): localStorage.getItem('rememberUser') && localStorage.setItem('rememberUser', JSON.stringify(postShopDataUserCopy))
   }
 
-  const [quantity, setQuantity] = useState(1)
+  const [quantity, setQuantity] = useState(product.quantity)
   const [padPrice, setPadPrice] = useState(price)
 
   const addQuantity = () => {

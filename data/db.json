@@ -1335,68 +1335,64 @@
       "password": "Ptptikmxo14",
       "shopList": [
         {
-          "id": 100,
-          "type": "noutbook",
-          "title": "PC Notebook HP 250 G9 Intel Core i5-1235U 512GB (Black)",
+          "id": 9,
+          "type": "smartphone",
+          "title": "Samsung Galaxy S23 Ultra 256GB (Black)",
           "rating": [
-            4,
-            1
+            4
           ],
-          "ratedUsers": [
-            {
-              "email": "safaryanmxitar@gmail.com",
-              "index": 1
-            }
-          ],
-          "price": 349900,
-          "discounted price": 0,
-          "installment 36 months": "9,720դր.",
-          "installment 24 months": "14,580դր.",
-          "installment 12 months": "29,160դր.",
-          "ram": "6 GB",
-          "rom": "512 GB",
-          "year of announcement": "2022",
+          "ratedUsers": [],
+          "price": 613900,
+          "discounted price": 649900,
+          "installment 36 months": "17,060դր",
+          "installment 24 months": "25,580դր.",
+          "installment 12 months": "51,160դր.",
+          "ram": "12 GB",
+          "rom": "256 GB",
+          "year of announcement": "2023",
           "available colors": [
-            "red",
-            "lightblue",
-            "black",
-            "pink"
+            "white",
+            "green",
+            "pink",
+            "black"
           ],
-          "color": "lightblue",
-          "quantity": 1,
+          "color": "black",
+          "quantity": 4,
           "is available": true,
           "images": [
-            "https://www.mobilecentre.am/img/prodpic/318319e38f820712ec3c%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__14_.png"
+            "https://www.mobilecentre.am/img/prodpic/35e8336273c83105edf9%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__9_.jpg",
+            "https://www.mobilecentre.am/img/prodpic/28d3cbd916369ee2fffe%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__10_.jpg",
+            "https://www.mobilecentre.am/img/prodpic/d468159af7156b211452%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__6_.jpg"
           ],
-          "brend": "Realme",
+          "brend": "Samsung",
           "general characteristics": {
             "guarantee": "12 months",
-            "model": "iPhone 14 Plus",
-            "year of announcement": "2022",
-            "os type": "iOS 16",
-            "os": "iOS"
+            "model": "Samsung Galaxy S23 Ultra",
+            "year of announcement": "2023",
+            "os type": "Android 13",
+            "os": "Android"
           },
           "screen": {
-            "screen type": "Super Retina XDR OLED",
-            "screen resolution": "1284 x 2778",
-            "screen size": "6.7 inch"
+            "screen type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
+            "screen resolution": "1440 x 3088",
+            "screen size": "6.8 inch"
           },
           "cameras": {
             "front camera": "12 MP",
-            "main camera": "12 MP + 12MP"
+            "main camera": "200 MP + 10 MP + 10 MP + 12 MP"
           },
           "memory and processor": {
-            "chipset": "Apple A15 Bionic (5 nm)",
-            "number of processor cores": "Hexa-core",
-            "processor": "2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard",
-            "ram": "6 GB",
+            "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
+            "number of processor cores": "Octa-core",
+            "processor": "1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
+            "ram": "12 GB",
             "memory card slot": false,
-            "rom": "512 GB"
+            "rom": "256 GB"
           },
           "network": {
             "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-            "internet access": "HSPA 42.2/5.76 Mbps, LTE-A, 5G, EV-DO Rev.A 3.1 Mbps",
-            "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2886, A2888",
+            "internet access": "HSPA, LTE-A (CA), 5G",
+            "4G LTE Network Range": "LTE",
             "GPS": true,
             "Bluetooth": true,
             "wifi network": true,
@@ -1404,15 +1400,15 @@
             "4g lte network": true
           },
           "nutrition": {
-            "battery type": "Li-Ion",
-            "battery capacity": "4323mAh"
+            "battery type": "Li-Po",
+            "battery capacity": "5000mAh"
           },
           "other": {
-            "weight": "203 g",
-            "thickness": "7.8 mm",
-            "length": "160.8 mm",
+            "weight": "234 g",
+            "thickness": "8.9 mm",
+            "length": "163.4 mm",
             "width": "78.1 mm",
-            "number of sim cards": "Nano-SIM and/or eSIM"
+            "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
           }
         },
         {
@@ -1497,73 +1493,68 @@
           }
         },
         {
-          "id": 1,
-          "type": "smartphone",
-          "title": "Xiaomi Redmi Note 10 Pro 8GB/256GB 2021 (Onyx Gray)",
+          "id": 100,
+          "type": "noutbook",
+          "title": "PC Notebook HP 250 G9 Intel Core i5-1235U 512GB (Black)",
           "rating": [
             4,
-            5,
-            5
+            1
           ],
           "ratedUsers": [
             {
               "email": "safaryanmxitar@gmail.com",
               "index": 1
-            },
-            {
-              "email": "test1@gmail.com",
-              "index": 2
             }
           ],
-          "price": 146900,
+          "price": 349900,
           "discounted price": 0,
-          "installment 36 months": "4,090դր.",
-          "installment 24 months": "6,130դր.",
-          "installment 12 months": "12,250դր.",
-          "ram": "8 GB",
-          "rom": "256 GB",
-          "year of announcement": "2021",
+          "installment 36 months": "9,720դր.",
+          "installment 24 months": "14,580դր.",
+          "installment 12 months": "29,160դր.",
+          "ram": "6 GB",
+          "rom": "512 GB",
+          "year of announcement": "2022",
           "available colors": [
-            "blue",
-            "gray"
+            "red",
+            "lightblue",
+            "black",
+            "pink"
           ],
-          "color": "gray",
-          "quantity": 1,
+          "color": "lightblue",
+          "quantity": 2,
           "is available": true,
           "images": [
-            "https://www.mobilecentre.am/img/prodpic/c711b6c925829f6a7f5f%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__15_.png",
-            "https://www.mobilecentre.am/img/prodpic/df9bb06d02a3b557152d%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__19_.png",
-            "https://www.mobilecentre.am/img/prodpic/d8a49ce91e63e1e028de%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__18_.png"
+            "https://www.mobilecentre.am/img/prodpic/318319e38f820712ec3c%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__14_.png"
           ],
-          "brend": "Xiaomi",
+          "brend": "Realme",
           "general characteristics": {
             "guarantee": "12 months",
-            "model": "Xiaomi Redmi Note 10 Pro",
-            "year of announcement": "2021",
-            "os type": "Android 11",
-            "os": "Android"
+            "model": "iPhone 14 Plus",
+            "year of announcement": "2022",
+            "os type": "iOS 16",
+            "os": "iOS"
           },
           "screen": {
-            "screen type": "AMOLED",
-            "screen resolution": "1080 x 2400",
-            "screen size": "6.67 inch"
+            "screen type": "Super Retina XDR OLED",
+            "screen resolution": "1284 x 2778",
+            "screen size": "6.7 inch"
           },
           "cameras": {
-            "front camera": "16 MP",
-            "main camera": "108MP + 8MP + 5MP + 2MP"
+            "front camera": "12 MP",
+            "main camera": "12 MP + 12MP"
           },
           "memory and processor": {
-            "chipset": "Qualcomm SM7150 Snapdragon 732G (8 nm)",
-            "number of processor cores": "Octa-core",
-            "processor": "2x2.3 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver",
-            "ram": "8 GB",
-            "memory card slot": true,
-            "rom": "256 GB"
+            "chipset": "Apple A15 Bionic (5 nm)",
+            "number of processor cores": "Hexa-core",
+            "processor": "2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard",
+            "ram": "6 GB",
+            "memory card slot": false,
+            "rom": "512 GB"
           },
           "network": {
-            "standard network": "GSM / HSPA / LTE",
-            "internet access": "HSPA, LTE-A (CA)",
-            "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 20, 28, 32, 38, 40, 41",
+            "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+            "internet access": "HSPA 42.2/5.76 Mbps, LTE-A, 5G, EV-DO Rev.A 3.1 Mbps",
+            "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2886, A2888",
             "GPS": true,
             "Bluetooth": true,
             "wifi network": true,
@@ -1571,15 +1562,15 @@
             "4g lte network": true
           },
           "nutrition": {
-            "battery type": "Li-Po",
-            "battery capacity": "5020mAh"
+            "battery type": "Li-Ion",
+            "battery capacity": "4323mAh"
           },
           "other": {
-            "weight": "193 g",
-            "thickness": "8.1 mm",
-            "length": "164 mm",
-            "width": "76.5 mm",
-            "number of sim cards": "Nano-SIM or Dual SIM"
+            "weight": "203 g",
+            "thickness": "7.8 mm",
+            "length": "160.8 mm",
+            "width": "78.1 mm",
+            "number of sim cards": "Nano-SIM and/or eSIM"
           }
         }
       ]

@@ -18,7 +18,6 @@ export default function Header() {
             <div className="haeder_content">
               <nav>
                 <ul>
-                  <li><NavLink to='/'><FcLike /></NavLink></li>
                   <li><NavLink to={isAuth && '/shop'}><AiOutlineShoppingCart /> {shopList.length > 0 && <strong>{shopList.length}</strong>}</NavLink></li>
                   <li><NavLink to='/auth'>{
                     isAuth ? <h4>{initialUser && initialUser.email.slice(0, initialUser.email.indexOf('@'))}</h4>: <> <BiUserCircle /> <span>Մուտք</span> </>
