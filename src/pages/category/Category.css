@@ -1,0 +1,19 @@
+.category_page_main_container_main {
+  width: 100%;
+  padding: 0 20px;
+}
+.category_page_main_container_main .category_page_main_conteiner_title {
+  width: 100%;
+  background: #fff;
+  margin: 50px 0 20px;
+  padding: 20px;
+}
+.category_page_main_container_main .category_page_main_conteiner_title p {
+  font-size: 30px;
+  color: #333;
+}
+.category_page_main_container_main .category_page_main_container {
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+}/*# sourceMappingURL=Category.css.map */
