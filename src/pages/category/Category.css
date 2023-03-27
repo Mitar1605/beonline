@@ -5,7 +5,7 @@
 .category_page_main_container_main .category_page_main_conteiner_title {
   width: 100%;
   background: #fff;
-  margin: 50px 0 20px;
+  margin: 50px 0 0;
   padding: 20px;
 }
 .category_page_main_container_main .category_page_main_conteiner_title p {
@@ -15,5 +15,20 @@
 .category_page_main_container_main .category_page_main_container {
   width: 100%;
   display: flex;
-  padding: 0 20px;
+}
+.category_page_main_container_main .category_page_main_container .category_product_container .category_sort_container {
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  margin-top: 1px;
+}
+.category_page_main_container_main .category_page_main_container .category_product_container .category_sort_container p {
+  font-size: 14px;
+}
+.category_page_main_container_main .category_page_main_container .category_product_container .category_sort_container p span {
+  color: #337ab7;
+  cursor: pointer;
+}
+.category_page_main_container_main .category_page_main_container .category_product_container .category_sort_container p span:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=Category.css.map */
