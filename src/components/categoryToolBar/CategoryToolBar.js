@@ -18,7 +18,7 @@ export default memo(function CategoryToolBar({dispatch, state}) {
       brendName: "Hp",
       thumbnail: "https://www.pngmart.com/files/15/Blue-Hewlett-Packard-Logo-PNG-File.png" 
     }
-  ]: [
+  ]: 'smartphone' ? [
     {
       brendName: "Realme",
       thumbnail: "https://www.mobilecentre.am/img/brands/1692eb9cdca7c7ce6b28NewProject(24).png" 
@@ -35,7 +35,7 @@ export default memo(function CategoryToolBar({dispatch, state}) {
       brendName: "Samsung",
       thumbnail: "https://www.mobilecentre.am/img/brands/cef1fcb344a1664835442.png" 
     }
-  ]
+  ]: []
 
   const years = ["2023", "2022", "2021", "2019"]
   const roms = ["64 GB", "128 GB", "256 GB", "512 GB"]
