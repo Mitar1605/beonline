@@ -41,49 +41,7 @@
       ],
       "brend": "Xiaomi",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Xiaomi Redmi Note 10 Pro",
-        "year of announcement": "2021",
-        "os type": "Android 11",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "AMOLED",
-        "screen resolution": "1080 x 2400",
-        "screen size": "6.67 inch"
-      },
-      "cameras": {
-        "front camera": "16 MP",
-        "main camera": "108MP + 8MP + 5MP + 2MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM7150 Snapdragon 732G (8 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "2x2.3 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver",
-        "ram": "8 GB",
-        "memory card slot": true,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / HSPA / LTE",
-        "internet access": "HSPA, LTE-A (CA)",
-        "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 20, 28, 32, 38, 40, 41",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "5020mAh"
-      },
-      "other": {
-        "weight": "193 g",
-        "thickness": "8.1 mm",
-        "length": "164 mm",
-        "width": "76.5 mm",
-        "number of sim cards": "Nano-SIM or Dual SIM"
+        "model": "Xiaomi Redmi Note 10 Pro"
       }
     },
     {
@@ -122,49 +80,7 @@
       ],
       "brend": "Xiaomi",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Xiaomi Redmi Note 10 Pro",
-        "year of announcement": "2021",
-        "os type": "Android 11",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "AMOLED",
-        "screen resolution": "1080 x 2400",
-        "screen size": "6.67 inch"
-      },
-      "cameras": {
-        "front camera": "16 MP",
-        "main camera": "108MP + 8MP + 5MP + 2MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM7150 Snapdragon 732G (8 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "2x2.3 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver",
-        "ram": "8 GB",
-        "memory card slot": true,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / HSPA / LTE",
-        "internet access": "HSPA, LTE-A (CA)",
-        "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 20, 28, 32, 38, 40, 41",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "5020mAh"
-      },
-      "other": {
-        "weight": "193 g",
-        "thickness": "8.1 mm",
-        "length": "164 mm",
-        "width": "76.5 mm",
-        "number of sim cards": "Nano-SIM or Dual SIM"
+        "model": "Xiaomi Redmi Note 10 Pro"
       }
     },
     {
@@ -205,49 +121,7 @@
       ],
       "brend": "Xiaomi",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Xiaomi Poco F4",
-        "year of announcement": "2022",
-        "os type": "Android 12",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "AMOLED",
-        "screen resolution": "1080 x 2400",
-        "screen size": "6.67 inch"
-      },
-      "cameras": {
-        "front camera": "20 MP",
-        "main camera": "64MP + 8MP + 2MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM8250-AC Snapdragon 870 5G (7 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585",
-        "ram": "8 GB",
-        "memory card slot": false,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / HSPA / LTE / 5G",
-        "internet access": "HSPA, LTE-A, 5G",
-        "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 38, 40, 41",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "4500mAh"
-      },
-      "other": {
-        "weight": "195 g",
-        "thickness": "7.7 mm",
-        "length": "163.2 mm",
-        "width": "76 mm",
-        "number of sim cards": "Nano-SIM or Dual SIM"
+        "model": "Xiaomi Poco F4"
       }
     },
     {
@@ -282,49 +156,7 @@
       ],
       "brend": "Xiaomi",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Xiaomi Poco F4",
-        "year of announcement": "2022",
-        "os type": "Android 12",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "AMOLED",
-        "screen resolution": "1080 x 2400",
-        "screen size": "6.67 inch"
-      },
-      "cameras": {
-        "front camera": "20 MP",
-        "main camera": "64MP + 8MP + 2MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM8250-AC Snapdragon 870 5G (7 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585",
-        "ram": "8 GB",
-        "memory card slot": false,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / HSPA / LTE / 5G",
-        "internet access": "HSPA, LTE-A, 5G",
-        "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 38, 40, 41",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "4500mAh"
-      },
-      "other": {
-        "weight": "195 g",
-        "thickness": "7.7 mm",
-        "length": "163.2 mm",
-        "width": "76 mm",
-        "number of sim cards": "Nano-SIM or Dual SIM"
+        "model": "Xiaomi Poco F4"
       }
     },
     {
@@ -359,49 +191,7 @@
       ],
       "brend": "Xiaomi",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Xiaomi Poco F4",
-        "year of announcement": "2022",
-        "os type": "Android 12",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "AMOLED",
-        "screen resolution": "1080 x 2400",
-        "screen size": "6.67 inch"
-      },
-      "cameras": {
-        "front camera": "20 MP",
-        "main camera": "64MP + 8MP + 2MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM8250-AC Snapdragon 870 5G (7 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585",
-        "ram": "8 GB",
-        "memory card slot": false,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / HSPA / LTE / 5G",
-        "internet access": "HSPA, LTE-A, 5G",
-        "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 38, 40, 41",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "4500mAh"
-      },
-      "other": {
-        "weight": "195 g",
-        "thickness": "7.7 mm",
-        "length": "163.2 mm",
-        "width": "76 mm",
-        "number of sim cards": "Nano-SIM or Dual SIM"
+        "model": "Xiaomi Poco F4"
       }
     },
     {
@@ -439,49 +229,7 @@
       ],
       "brend": "Xiaomi",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Xiaomi 12T Pro",
-        "year of announcement": "2022",
-        "os type": "Android 12",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "AMOLED",
-        "screen resolution": "1220 x 2712",
-        "screen size": "6.67 inch"
-      },
-      "cameras": {
-        "front camera": "20 MP",
-        "main camera": "200 MP + 8 MP + 2 MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x2.0 GHz Cortex-A510",
-        "ram": "8 GB",
-        "memory card slot": false,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / HSPA / LTE / 5G",
-        "internet access": "HSPA, LTE-A, 5G",
-        "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 42, 48, 66",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "5000mAh"
-      },
-      "other": {
-        "weight": "205 g",
-        "thickness": "8.6 mm",
-        "length": "163.1 mm",
-        "width": "75.9 mm",
-        "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
+        "model": "Xiaomi 12T Pro"
       }
     },
     {
@@ -516,49 +264,7 @@
       ],
       "brend": "Samsung",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Samsung Galaxy S23 Ultra",
-        "year of announcement": "2023",
-        "os type": "Android 13",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
-        "screen resolution": "1440 x 3088",
-        "screen size": "6.8 inch"
-      },
-      "cameras": {
-        "front camera": "12 MP",
-        "main camera": "200 MP + 10 MP + 10 MP + 12 MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
-        "ram": "12 GB",
-        "memory card slot": false,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-        "internet access": "HSPA, LTE-A (CA), 5G",
-        "4G LTE Network Range": "LTE",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "5000mAh"
-      },
-      "other": {
-        "weight": "234 g",
-        "thickness": "8.9 mm",
-        "length": "163.4 mm",
-        "width": "78.1 mm",
-        "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
+        "model": "Samsung Galaxy S23 Ultra"
       }
     },
     {
@@ -593,49 +299,7 @@
       ],
       "brend": "Samsung",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Samsung Galaxy S23 Ultra",
-        "year of announcement": "2023",
-        "os type": "Android 13",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
-        "screen resolution": "1440 x 3088",
-        "screen size": "6.8 inch"
-      },
-      "cameras": {
-        "front camera": "12 MP",
-        "main camera": "200 MP + 10 MP + 10 MP + 12 MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
-        "ram": "12 GB",
-        "memory card slot": false,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-        "internet access": "HSPA, LTE-A (CA), 5G",
-        "4G LTE Network Range": "LTE",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "5000mAh"
-      },
-      "other": {
-        "weight": "234 g",
-        "thickness": "8.9 mm",
-        "length": "163.4 mm",
-        "width": "78.1 mm",
-        "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
+        "model": "Samsung Galaxy S23 Ultra"
       }
     },
     {
@@ -670,49 +334,7 @@
       ],
       "brend": "Samsung",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Samsung Galaxy S23 Ultra",
-        "year of announcement": "2023",
-        "os type": "Android 13",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
-        "screen resolution": "1440 x 3088",
-        "screen size": "6.8 inch"
-      },
-      "cameras": {
-        "front camera": "12 MP",
-        "main camera": "200 MP + 10 MP + 10 MP + 12 MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
-        "ram": "12 GB",
-        "memory card slot": false,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-        "internet access": "HSPA, LTE-A (CA), 5G",
-        "4G LTE Network Range": "LTE",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "5000mAh"
-      },
-      "other": {
-        "weight": "234 g",
-        "thickness": "8.9 mm",
-        "length": "163.4 mm",
-        "width": "78.1 mm",
-        "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
+        "model": "Samsung Galaxy S23 Ultra"
       }
     },
     {
@@ -747,49 +369,7 @@
       ],
       "brend": "Samsung",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Samsung Galaxy S23 Ultra",
-        "year of announcement": "2023",
-        "os type": "Android 13",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
-        "screen resolution": "1440 x 3088",
-        "screen size": "6.8 inch"
-      },
-      "cameras": {
-        "front camera": "12 MP",
-        "main camera": "200 MP + 10 MP + 10 MP + 12 MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
-        "ram": "12 GB",
-        "memory card slot": false,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-        "internet access": "HSPA, LTE-A (CA), 5G",
-        "4G LTE Network Range": "LTE",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "5000mAh"
-      },
-      "other": {
-        "weight": "234 g",
-        "thickness": "8.9 mm",
-        "length": "163.4 mm",
-        "width": "78.1 mm",
-        "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
+        "model": "Samsung Galaxy S23 Ultra"
       }
     },
     {
@@ -824,49 +404,7 @@
       ],
       "brend": "Samsung",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Samsung Galaxy S23+",
-        "year of announcement": "2023",
-        "os type": "Android 13",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
-        "screen resolution": "1080 x 2340",
-        "screen size": "6.6 inch"
-      },
-      "cameras": {
-        "front camera": "12 MP",
-        "main camera": "50 MP + 10 MP + 12 MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
-        "ram": "8 GB",
-        "memory card slot": false,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-        "internet access": "HSPA, LTE, 5G",
-        "4G LTE Network Range": "LTE",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Ion",
-        "battery capacity": "4700mAh"
-      },
-      "other": {
-        "weight": "196 g",
-        "thickness": "7.6 mm",
-        "length": "157.8 mm",
-        "width": "76.2 mm",
-        "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
+        "model": "Samsung Galaxy S23+"
       }
     },
     {
@@ -901,49 +439,7 @@
       ],
       "brend": "Samsung",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Samsung Galaxy S23+",
-        "year of announcement": "2023",
-        "os type": "Android 13",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
-        "screen resolution": "1080 x 2340",
-        "screen size": "6.6 inch"
-      },
-      "cameras": {
-        "front camera": "12 MP",
-        "main camera": "50 MP + 10 MP + 12 MP"
-      },
-      "memory and processor": {
-        "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
-        "number of processor cores": "Octa-core",
-        "processor": "1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
-        "ram": "8 GB",
-        "memory card slot": false,
-        "rom": "256 GB"
-      },
-      "network": {
-        "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-        "internet access": "HSPA, LTE, 5G",
-        "4G LTE Network Range": "LTE",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Ion",
-        "battery capacity": "4700mAh"
-      },
-      "other": {
-        "weight": "196 g",
-        "thickness": "7.6 mm",
-        "length": "157.8 mm",
-        "width": "76.2 mm",
-        "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
+        "model": "Samsung Galaxy S23+"
       }
     },
     {
@@ -974,49 +470,7 @@
       ],
       "brend": "Realme",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Realme C30s",
-        "year of announcement": "2022",
-        "os type": "Android 12",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "IPS LCD",
-        "screen resolution": "720 x 1600",
-        "screen size": "6.5 inch"
-      },
-      "cameras": {
-        "front camera": "5 MP",
-        "main camera": "8 MP"
-      },
-      "memory and processor": {
-        "chipset": "none",
-        "number of processor cores": "Octa-core",
-        "processor": "1.6 GHz Cortex-A55",
-        "ram": "2 GB",
-        "memory card slot": true,
-        "rom": "32 GB"
-      },
-      "network": {
-        "standard network": "GSM / HSPA / LTE",
-        "internet access": "HSPA, LTE",
-        "4G LTE Network Range": "1, 3, 5, 8, 38, 40, 41",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "5000mAh"
-      },
-      "other": {
-        "weight": "186 g",
-        "thickness": "8.5 mm",
-        "length": "164.2 mm",
-        "width": "75.7 mm",
-        "number of sim cards": "Nano-SIM or Dual SIM"
+        "model": "Realme C30s"
       }
     },
     {
@@ -1047,49 +501,7 @@
       ],
       "brend": "Realme",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "Realme C30s",
-        "year of announcement": "2022",
-        "os type": "Android 12",
-        "os": "Android"
-      },
-      "screen": {
-        "screen type": "IPS LCD",
-        "screen resolution": "720 x 1600",
-        "screen size": "6.5 inch"
-      },
-      "cameras": {
-        "front camera": "5 MP",
-        "main camera": "8 MP"
-      },
-      "memory and processor": {
-        "chipset": "none",
-        "number of processor cores": "Octa-core",
-        "processor": "1.6 GHz Cortex-A55",
-        "ram": "2 GB",
-        "memory card slot": true,
-        "rom": "32 GB"
-      },
-      "network": {
-        "standard network": "GSM / HSPA / LTE",
-        "internet access": "HSPA, LTE",
-        "4G LTE Network Range": "1, 3, 5, 8, 38, 40, 41",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Po",
-        "battery capacity": "5000mAh"
-      },
-      "other": {
-        "weight": "186 g",
-        "thickness": "8.5 mm",
-        "length": "164.2 mm",
-        "width": "75.7 mm",
-        "number of sim cards": "Nano-SIM or Dual SIM"
+        "model": "Realme C30s"
       }
     },
     {
@@ -1197,51 +609,9 @@
         "https://www.mobilecentre.am/img/prodpic/4709862b3d39d9d7ead62.png",
         "https://www.mobilecentre.am/img/prodpic/32e5683917e1d87342023.png"
       ],
-      "brend": "Realme",
+      "brend": "Apple",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "iPhone 14 Plus",
-        "year of announcement": "2022",
-        "os type": "iOS 16",
-        "os": "iOS"
-      },
-      "screen": {
-        "screen type": "Super Retina XDR OLED",
-        "screen resolution": "1284 x 2778",
-        "screen size": "6.7 inch"
-      },
-      "cameras": {
-        "front camera": "12 MP",
-        "main camera": "12 MP + 12MP"
-      },
-      "memory and processor": {
-        "chipset": "Apple A15 Bionic (5 nm)",
-        "number of processor cores": "Hexa-core",
-        "processor": "2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard",
-        "ram": "6 GB",
-        "memory card slot": false,
-        "rom": "512 GB"
-      },
-      "network": {
-        "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-        "internet access": "HSPA 42.2/5.76 Mbps, LTE-A, 5G, EV-DO Rev.A 3.1 Mbps",
-        "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2886, A2888",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Ion",
-        "battery capacity": "4323mAh"
-      },
-      "other": {
-        "weight": "203 g",
-        "thickness": "7.8 mm",
-        "length": "160.8 mm",
-        "width": "78.1 mm",
-        "number of sim cards": "Nano-SIM and/or eSIM"
+        "model": "iPhone 14 Plus"
       }
     }
   ],
@@ -1269,62 +639,17 @@
       "rom": "512 GB",
       "year of announcement": "2022",
       "available colors": [
-        "red",
-        "lightblue",
-        "black",
-        "pink"
+        "black"
       ],
-      "color": "lightblue",
+      "color": "black",
       "quantity": 1,
       "is available": true,
       "images": [
         "https://www.mobilecentre.am/img/prodpic/318319e38f820712ec3c%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__14_.png"
       ],
-      "brend": "Realme",
+      "brend": "Hp",
       "general characteristics": {
-        "guarantee": "12 months",
-        "model": "iPhone 14 Plus",
-        "year of announcement": "2022",
-        "os type": "iOS 16",
-        "os": "iOS"
-      },
-      "screen": {
-        "screen type": "Super Retina XDR OLED",
-        "screen resolution": "1284 x 2778",
-        "screen size": "6.7 inch"
-      },
-      "cameras": {
-        "front camera": "12 MP",
-        "main camera": "12 MP + 12MP"
-      },
-      "memory and processor": {
-        "chipset": "Apple A15 Bionic (5 nm)",
-        "number of processor cores": "Hexa-core",
-        "processor": "2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard",
-        "ram": "6 GB",
-        "memory card slot": false,
-        "rom": "512 GB"
-      },
-      "network": {
-        "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-        "internet access": "HSPA 42.2/5.76 Mbps, LTE-A, 5G, EV-DO Rev.A 3.1 Mbps",
-        "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2886, A2888",
-        "GPS": true,
-        "Bluetooth": true,
-        "wifi network": true,
-        "3g network": true,
-        "4g lte network": true
-      },
-      "nutrition": {
-        "battery type": "Li-Ion",
-        "battery capacity": "4323mAh"
-      },
-      "other": {
-        "weight": "203 g",
-        "thickness": "7.8 mm",
-        "length": "160.8 mm",
-        "width": "78.1 mm",
-        "number of sim cards": "Nano-SIM and/or eSIM"
+        "model": "PC Notebook HP 250 G9 Intel Core i5-1235U 512GB"
       }
     }
   ],
@@ -1335,9 +660,50 @@
       "password": "Ptptikmxo14",
       "shopList": [
         {
-          "id": 9,
+          "id": 3,
           "type": "smartphone",
-          "title": "Samsung Galaxy S23 Ultra 256GB (Black)",
+          "title": "Xiaomi Poco F4 8GB/256GB (Night Black)",
+          "rating": [
+            3,
+            5
+          ],
+          "ratedUsers": [
+            {
+              "email": "safaryanmxitar@gmail.com",
+              "index": 1
+            }
+          ],
+          "price": 207900,
+          "discounted price": 0,
+          "installment 36 months": "5,780դր.",
+          "installment 24 months": "8,670դր.",
+          "installment 12 months": "17,330դր.",
+          "ram": "8 GB",
+          "rom": "256 GB",
+          "year of announcement": "2022",
+          "available colors": [
+            "blue",
+            "gray",
+            "black"
+          ],
+          "color": "black",
+          "quantity": 1,
+          "is available": true,
+          "images": [
+            "https://www.mobilecentre.am/img/prodpic/5c37b51fa27faea07537%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__23_.png",
+            "https://www.mobilecentre.am/img/prodpic/b1baad99794b408d8538%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__22_.png",
+            "https://www.mobilecentre.am/img/prodpic/989ab49581a097623ec0%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__24_.png",
+            "https://www.mobilecentre.am/img/prodpic/a3f44c1e0f6db147d4af%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__25_.png"
+          ],
+          "brend": "Xiaomi",
+          "general characteristics": {
+            "model": "Xiaomi Poco F4"
+          }
+        },
+        {
+          "id": 7,
+          "type": "smartphone",
+          "title": "Samsung Galaxy S23 Ultra 256GB (Light Pink)",
           "rating": [
             4
           ],
@@ -1356,221 +722,17 @@
             "pink",
             "black"
           ],
-          "color": "black",
-          "quantity": 4,
-          "is available": true,
-          "images": [
-            "https://www.mobilecentre.am/img/prodpic/35e8336273c83105edf9%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__9_.jpg",
-            "https://www.mobilecentre.am/img/prodpic/28d3cbd916369ee2fffe%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__10_.jpg",
-            "https://www.mobilecentre.am/img/prodpic/d468159af7156b211452%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__6_.jpg"
-          ],
-          "brend": "Samsung",
-          "general characteristics": {
-            "guarantee": "12 months",
-            "model": "Samsung Galaxy S23 Ultra",
-            "year of announcement": "2023",
-            "os type": "Android 13",
-            "os": "Android"
-          },
-          "screen": {
-            "screen type": "Dynamic AMOLED 2X, 120Hz, HDR10+",
-            "screen resolution": "1440 x 3088",
-            "screen size": "6.8 inch"
-          },
-          "cameras": {
-            "front camera": "12 MP",
-            "main camera": "200 MP + 10 MP + 10 MP + 12 MP"
-          },
-          "memory and processor": {
-            "chipset": "Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)",
-            "number of processor cores": "Octa-core",
-            "processor": "1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510",
-            "ram": "12 GB",
-            "memory card slot": false,
-            "rom": "256 GB"
-          },
-          "network": {
-            "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-            "internet access": "HSPA, LTE-A (CA), 5G",
-            "4G LTE Network Range": "LTE",
-            "GPS": true,
-            "Bluetooth": true,
-            "wifi network": true,
-            "3g network": true,
-            "4g lte network": true
-          },
-          "nutrition": {
-            "battery type": "Li-Po",
-            "battery capacity": "5000mAh"
-          },
-          "other": {
-            "weight": "234 g",
-            "thickness": "8.9 mm",
-            "length": "163.4 mm",
-            "width": "78.1 mm",
-            "number of sim cards": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
-          }
-        },
-        {
-          "id": 2,
-          "type": "smartphone",
-          "title": "Xiaomi Redmi Note 10 Pro 8GB/256GB 2021 (Glacier Blue)",
-          "rating": [
-            4,
-            3
-          ],
-          "ratedUsers": [
-            {
-              "email": "safaryanmxitar@gmail.com",
-              "index": 1
-            }
-          ],
-          "price": 146900,
-          "discounted price": 0,
-          "installment 36 months": "4,090դր.",
-          "installment 24 months": "6,130դր.",
-          "installment 12 months": "12,250դր.",
-          "ram": "8 GB",
-          "rom": "256 GB",
-          "year of announcement": "2021",
-          "available colors": [
-            "blue",
-            "gray"
-          ],
-          "color": "blue",
+          "color": "pink",
           "quantity": 1,
           "is available": true,
           "images": [
-            "https://www.mobilecentre.am/img/prodpic/322defc1c07f59821c06%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__20_.png",
-            "https://www.mobilecentre.am/img/prodpic/b1baad99794b408d8538%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__22_.png",
-            "https://www.mobilecentre.am/img/prodpic/80875a8f89320f5a486b%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__21_.png"
+            "https://www.mobilecentre.am/img/prodpic/58202204b8924240bdab%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__15_.jpg",
+            "https://www.mobilecentre.am/img/prodpic/3fd45adb7b008da24c1a%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__13_.jpg",
+            "https://www.mobilecentre.am/img/prodpic/04277d6c429fa874307a%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__12_.jpg"
           ],
-          "brend": "Xiaomi",
+          "brend": "Samsung",
           "general characteristics": {
-            "guarantee": "12 months",
-            "model": "Xiaomi Redmi Note 10 Pro",
-            "year of announcement": "2021",
-            "os type": "Android 11",
-            "os": "Android"
-          },
-          "screen": {
-            "screen type": "AMOLED",
-            "screen resolution": "1080 x 2400",
-            "screen size": "6.67 inch"
-          },
-          "cameras": {
-            "front camera": "16 MP",
-            "main camera": "108MP + 8MP + 5MP + 2MP"
-          },
-          "memory and processor": {
-            "chipset": "Qualcomm SM7150 Snapdragon 732G (8 nm)",
-            "number of processor cores": "Octa-core",
-            "processor": "2x2.3 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver",
-            "ram": "8 GB",
-            "memory card slot": true,
-            "rom": "256 GB"
-          },
-          "network": {
-            "standard network": "GSM / HSPA / LTE",
-            "internet access": "HSPA, LTE-A (CA)",
-            "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 20, 28, 32, 38, 40, 41",
-            "GPS": true,
-            "Bluetooth": true,
-            "wifi network": true,
-            "3g network": true,
-            "4g lte network": true
-          },
-          "nutrition": {
-            "battery type": "Li-Po",
-            "battery capacity": "5020mAh"
-          },
-          "other": {
-            "weight": "193 g",
-            "thickness": "8.1 mm",
-            "length": "164 mm",
-            "width": "76.5 mm",
-            "number of sim cards": "Nano-SIM or Dual SIM"
-          }
-        },
-        {
-          "id": 100,
-          "type": "noutbook",
-          "title": "PC Notebook HP 250 G9 Intel Core i5-1235U 512GB (Black)",
-          "rating": [
-            4,
-            1
-          ],
-          "ratedUsers": [
-            {
-              "email": "safaryanmxitar@gmail.com",
-              "index": 1
-            }
-          ],
-          "price": 349900,
-          "discounted price": 0,
-          "installment 36 months": "9,720դր.",
-          "installment 24 months": "14,580դր.",
-          "installment 12 months": "29,160դր.",
-          "ram": "6 GB",
-          "rom": "512 GB",
-          "year of announcement": "2022",
-          "available colors": [
-            "red",
-            "lightblue",
-            "black",
-            "pink"
-          ],
-          "color": "lightblue",
-          "quantity": 2,
-          "is available": true,
-          "images": [
-            "https://www.mobilecentre.am/img/prodpic/318319e38f820712ec3c%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__14_.png"
-          ],
-          "brend": "Realme",
-          "general characteristics": {
-            "guarantee": "12 months",
-            "model": "iPhone 14 Plus",
-            "year of announcement": "2022",
-            "os type": "iOS 16",
-            "os": "iOS"
-          },
-          "screen": {
-            "screen type": "Super Retina XDR OLED",
-            "screen resolution": "1284 x 2778",
-            "screen size": "6.7 inch"
-          },
-          "cameras": {
-            "front camera": "12 MP",
-            "main camera": "12 MP + 12MP"
-          },
-          "memory and processor": {
-            "chipset": "Apple A15 Bionic (5 nm)",
-            "number of processor cores": "Hexa-core",
-            "processor": "2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard",
-            "ram": "6 GB",
-            "memory card slot": false,
-            "rom": "512 GB"
-          },
-          "network": {
-            "standard network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-            "internet access": "HSPA 42.2/5.76 Mbps, LTE-A, 5G, EV-DO Rev.A 3.1 Mbps",
-            "4G LTE Network Range": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2886, A2888",
-            "GPS": true,
-            "Bluetooth": true,
-            "wifi network": true,
-            "3g network": true,
-            "4g lte network": true
-          },
-          "nutrition": {
-            "battery type": "Li-Ion",
-            "battery capacity": "4323mAh"
-          },
-          "other": {
-            "weight": "203 g",
-            "thickness": "7.8 mm",
-            "length": "160.8 mm",
-            "width": "78.1 mm",
-            "number of sim cards": "Nano-SIM and/or eSIM"
+            "model": "Samsung Galaxy S23 Ultra"
           }
         }
       ]

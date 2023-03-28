@@ -1,0 +1,91 @@
+.tool_bar_container{
+    width: 320px;
+    display: block;
+    background: #fff;
+    margin: 1px 1px 0 0;
+    .tool_bar_price{
+        width: 100%;
+        padding: 20px 0;
+        .tool_bar_price_p, .tool_bar_title{
+            margin-left: 10px;
+            color: #333;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        .tool_bar_price_p{
+            margin-top: 10px;
+        }
+        .tool_bar_price_inp_cont{
+            width: 80%;
+            padding: 0 10px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            .tool_bar_price_inp{
+                width: 100px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                input {
+                    width: 100%;
+                    height: 100%;
+                }
+                span{
+                    font-size: 14px;
+                    color: #333;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .tool_bar_brend_container{
+        width: 100%;
+        margin: 20px 0;
+        padding: 20px 0;
+        border-top: 1px solid #f5f5f5;
+        .tool_bar_brend{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 80px);
+            grid-gap: 10px;
+            margin-top: 20px;
+            .tool_bar_brend_card{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+                border: 2px solid lightgray;
+                border-radius: 5px;
+                padding: 10px;
+                cursor: pointer;
+                &:hover{
+                    border-color: grey;
+                }
+                img{
+                    width: 100%;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #333;
+                }
+            }
+        }
+        .tool_bar_colors{
+            grid-template-columns: repeat(6, 20px);
+        }
+    }
+    .remove_filters_container{
+        p{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+            color: #337ab7;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

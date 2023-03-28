@@ -115,8 +115,8 @@ export default memo(function ProductPage() {
                       </div>
                     </div>
                     <div className="buy_button">
-                        <button onClick={() => {
-                          handlePostShopDataUser(product.data, setInShop, quantity)
+                        <button style={{background: product.data["is available"] ? "#3d97ee": 'grey', cursor:  product.data["is available"] ? "pointer": 'default'}} onClick={() => {
+                          product.data["is available"] && handlePostShopDataUser(product.data, setInShop, quantity)
                         }}>
                           <AiOutlineShoppingCart />
                           {!inShop ? "Գնել" : "Զամբ. է"}

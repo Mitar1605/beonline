@@ -1,3 +1,18 @@
 .category_container {
   grid-template-columns: repeat(4, 1fr) !important;
+}
+
+.filter_not_found {
+  width: 100%;
+  margin-top: 20px;
+  background: #F2DDDE;
+  border: 1px solid #f5baba;
+}
+.filter_not_found p {
+  color: #a94442;
+  padding: 15px;
+  font-size: 15px;
+}
+.filter_not_found p span {
+  font-weight: 600;
 }/*# sourceMappingURL=CategoryContainer.css.map */

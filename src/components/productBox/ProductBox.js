@@ -41,8 +41,8 @@ export default function ProductBox({product}) {
         <div className="productbox_shop_div">
           <ProductRating data={data} product={product} />
           <div className="productbox_shopping">
-            <button onClick={() => {
-              handlePostShopDataUser(data, setInShop)
+            <button style={{background: product["is available"] ? "#3d97ee": 'grey', cursor:  product["is available"] ? "pointer": 'default'}} onClick={() => {
+              product["is available"] && handlePostShopDataUser(data, setInShop)
             }}>
               <AiOutlineShoppingCart />
               { !inShop ? "Գնել": "Զամբ. է"}
