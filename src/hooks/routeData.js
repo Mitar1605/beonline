@@ -3,11 +3,16 @@ import Auth from "../pages/auth/Auth"
 import Shop from "../pages/shop/Shop"
 import ProductPage from "../pages/productPage/ProductPage"
 import Category from "../pages/category/Category"
+import AdminPanel from "../pages/admin/AdminPanel"
 
 export const authUserRoutes = [
     {
         path: '/shop',
         component: <Shop /> 
+    },
+    {
+        path: '/admin-panel',
+        component: <AdminPanel /> 
     }
 ]
 

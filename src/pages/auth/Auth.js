@@ -1,5 +1,4 @@
 import React, { memo, useState, useContext, useEffect } from 'react'
-import {Link} from 'react-router-dom'
 import useFetch from '../../hooks/useFetch'
 import { isAuthContext } from '../../App'
 import './Auth.css'
@@ -12,6 +11,8 @@ export default memo(function Auth() {
 
   const [remeberMe, setRememberMe] = useState(false);
 
+  const [isAdmin, setIsAdmin] = useState(false)
+
   const {data} = useFetch('http://localhost:3500/users')
 
   const users = [].concat(data)
@@ -21,7 +22,8 @@ export default memo(function Auth() {
       id: users.length,
       email: '',
       password: '',
-      shopList: []
+      shopList: [],
+      status: isAdmin ? 'admin': 'user'
     }
   )
 
@@ -114,7 +116,6 @@ export default memo(function Auth() {
             <label className='form_password_remember_label' >
                 <input type="checkbox" onChange={() => setRememberMe(remeberMe ? false: true)} /> Հիշել տվյալներս
             </label>
-            <Link to='/'>Մոռացել եմ գաղտնաբառս</Link>
         </div>
         <div className="login_form_submit">
             <button type='submit'>{isRegister ? "Գրանցվել": "Մտնել"}</button>

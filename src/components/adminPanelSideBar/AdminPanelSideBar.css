@@ -1,0 +1,43 @@
+.admin_panel_side_bar_main {
+  width: 150%;
+  height: 100%;
+  background: #fff;
+  padding: 20px;
+}
+.admin_panel_side_bar_main .admin_panel_header {
+  text-align: center;
+}
+.admin_panel_side_bar_main .admin_panel_header .logo_div h2 {
+  font-weight: 600;
+  color: #333;
+}
+.admin_panel_side_bar_main .admin_panel_header .admin_name {
+  margin: 10px 0;
+  padding: 20px 0;
+  border: 1px solid grey;
+  border-left: none;
+  border-right: none;
+}
+.admin_panel_side_bar_main .admin_panel_header .admin_name p {
+  font-weight: 600;
+  color: #333;
+}
+.admin_panel_side_bar_main .tool_ul {
+  list-style: none;
+}
+.admin_panel_side_bar_main .tool_ul li {
+  font-weight: 600;
+  color: #333;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 0 25px 25px 0;
+}
+.admin_panel_side_bar_main .tool_ul li svg {
+  font-size: 20px;
+}
+.admin_panel_side_bar_main .tool_ul li:hover {
+  background: #ebebeb;
+}/*# sourceMappingURL=AdminPanelSideBar.css.map */

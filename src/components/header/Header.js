@@ -1,6 +1,5 @@
 import React, {useContext} from 'react'
 import { NavLink } from 'react-router-dom'
-import {FcLike} from 'react-icons/fc'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import {BiUserCircle} from 'react-icons/bi'
 import { isAuthContext } from '../../App'
@@ -18,6 +17,10 @@ export default function Header() {
             <div className="haeder_content">
               <nav>
                 <ul>
+                  {
+                    initialUser.status === 'admin' && <li><NavLink to='/admin-panel'>Admin panel</NavLink></li>
+                  }
+                  
                   <li><NavLink to={isAuth && '/shop'}><AiOutlineShoppingCart /> {shopList.length > 0 && <strong>{shopList.length}</strong>}</NavLink></li>
                   <li><NavLink to='/auth'>{
                     isAuth ? <h4>{initialUser && initialUser.email.slice(0, initialUser.email.indexOf('@'))}</h4>: <> <BiUserCircle /> <span>Մուտք</span> </>

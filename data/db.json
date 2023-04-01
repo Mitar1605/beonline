@@ -660,6 +660,42 @@
       "password": "Ptptikmxo14",
       "shopList": [
         {
+          "id": 100,
+          "type": "noutbook",
+          "title": "PC Notebook HP 250 G9 Intel Core i5-1235U 512GB (Black)",
+          "rating": [
+            4,
+            1
+          ],
+          "ratedUsers": [
+            {
+              "email": "safaryanmxitar@gmail.com",
+              "index": 1
+            }
+          ],
+          "price": 349900,
+          "discounted price": 0,
+          "installment 36 months": "9,720դր.",
+          "installment 24 months": "14,580դր.",
+          "installment 12 months": "29,160դր.",
+          "ram": "6 GB",
+          "rom": "512 GB",
+          "year of announcement": "2022",
+          "available colors": [
+            "black"
+          ],
+          "color": "black",
+          "quantity": 1,
+          "is available": true,
+          "images": [
+            "https://www.mobilecentre.am/img/prodpic/318319e38f820712ec3c%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__14_.png"
+          ],
+          "brend": "Hp",
+          "general characteristics": {
+            "model": "PC Notebook HP 250 G9 Intel Core i5-1235U 512GB"
+          }
+        },
+        {
           "id": 3,
           "type": "smartphone",
           "title": "Xiaomi Poco F4 8GB/256GB (Night Black)",
@@ -701,9 +737,9 @@
           }
         },
         {
-          "id": 7,
+          "id": 9,
           "type": "smartphone",
-          "title": "Samsung Galaxy S23 Ultra 256GB (Light Pink)",
+          "title": "Samsung Galaxy S23 Ultra 256GB (Black)",
           "rating": [
             4
           ],
@@ -722,32 +758,28 @@
             "pink",
             "black"
           ],
-          "color": "pink",
+          "color": "black",
           "quantity": 1,
           "is available": true,
           "images": [
-            "https://www.mobilecentre.am/img/prodpic/58202204b8924240bdab%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__15_.jpg",
-            "https://www.mobilecentre.am/img/prodpic/3fd45adb7b008da24c1a%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__13_.jpg",
-            "https://www.mobilecentre.am/img/prodpic/04277d6c429fa874307a%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__12_.jpg"
+            "https://www.mobilecentre.am/img/prodpic/35e8336273c83105edf9%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__9_.jpg",
+            "https://www.mobilecentre.am/img/prodpic/28d3cbd916369ee2fffe%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__10_.jpg",
+            "https://www.mobilecentre.am/img/prodpic/d468159af7156b211452%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__6_.jpg"
           ],
           "brend": "Samsung",
           "general characteristics": {
             "model": "Samsung Galaxy S23 Ultra"
           }
         }
-      ]
+      ],
+      "status": "admin"
     },
     {
       "id": 2,
       "email": "test1@gmail.com",
       "password": "Ptptikmxo14",
-      "shopList": []
-    },
-    {
-      "id": 3,
-      "email": "test2@gmail.com",
-      "password": "Ptptikmxo14",
-      "shopList": []
+      "shopList": [],
+      "status": "user"
     }
   ]
 }
