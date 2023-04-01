@@ -1,0 +1,22 @@
+.product_img {
+  width: 80px;
+}
+.product_img img {
+  width: 64px;
+}
+
+.product_title {
+  width: 450px;
+}
+
+.product_price {
+  width: 100px;
+}
+
+.product_type {
+  width: 150px;
+}
+
+.product_brend {
+  width: 100px;
+}/*# sourceMappingURL=ProductTd.css.map */

@@ -3,9 +3,8 @@ import { isAuthContext } from '../../App'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import './AdminPanelSideBar.css'
 
-export default memo(function AdminPanelSideBar({adminPanelTools}) {
+export default memo(function AdminPanelSideBar({adminPanelTools, initialTool, setInitialTool}) {
 
-    
   const {initialUser} = useContext(isAuthContext)
 
   return (
@@ -22,7 +21,7 @@ export default memo(function AdminPanelSideBar({adminPanelTools}) {
         {
             adminPanelTools.map((tool, i) => {
                 return (
-                    <li key={i}>{tool === "Ապրանքներ" && <AiOutlineShoppingCart />}{tool}</li>
+                    <li key={i} style={{background: initialTool === tool ? '#ebebeb': 'none'}} onClick={() => setInitialTool(tool)} >{tool === "Ապրանքներ" && <AiOutlineShoppingCart />}{tool}</li>
                 )
             })
          }

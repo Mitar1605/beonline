@@ -1,6 +1,6 @@
 .admin_panel_side_bar_main{
-    width: 150%;
     height: 100%;
+    display: block;
     background: #fff;
     padding: 20px;
     .admin_panel_header{
@@ -32,13 +32,13 @@
             display: flex;
             align-items: center;
             gap: 10px;
+            &:hover{
+                background: #ebebeb !important;
+            }
             cursor: pointer;
             border-radius: 0 25px 25px 0;
             svg{
                 font-size: 20px;
-            }
-            &:hover{
-                background: #ebebeb;
             }
         }
     }

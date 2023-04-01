@@ -1,1 +1,1 @@
-{"version":3,"sources":["AdminPanel.scss","AdminPanel.css"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,aAAA;EACA,aAAA;EACA,uBAAA;EACA,WAAA;ACCJ;ADAI;EACI,WAAA;EACA,YAAA;EACA,aAAA;ACER","file":"AdminPanel.css"}
+{"version":3,"sources":["AdminPanel.scss","AdminPanel.css"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,aAAA;EACA,aAAA;EACA,uBAAA;EACA,WAAA;ACCJ;ADAI;EACI,WAAA;EACA,YAAA;EACA,aAAA;EACA,QAAA;ACER;ADDQ;EACI,UAAA;ACGZ;ADDQ;EACI,UAAA;ACGZ","file":"AdminPanel.css"}

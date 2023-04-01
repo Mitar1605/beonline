@@ -11,7 +11,6 @@ export default memo(function BasketBox({product}) {
   const [postShopDataUser, setPostShopDataUser] = useState(initialUser)
   
   const {id, title, type, price, images} = product
-  console.log(product);
 
   const priceComma = (price) => {
     const numFor = Intl.NumberFormat('en-US');
