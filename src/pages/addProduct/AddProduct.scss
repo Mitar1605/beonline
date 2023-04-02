@@ -1,0 +1,45 @@
+.add_product_main{
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    .add_product_title{
+        p{
+            font-size: 18px;
+            color: #333;
+        }
+    }
+    .add_product_form{
+        margin-top: 20px;
+        form {
+            width: 100%;
+            display: flex;
+            gap: 30px;
+            label{
+                font-weight: 600;
+                color: #333;
+                font-size: 14px;
+                input, select{
+                    margin: 15px 0;
+                    padding: 10px 5px;
+                    width: 350px;
+                    display: block;
+                    border: 2px solid grey;
+                    border-radius: 5px;
+                    outline-color: #8DEBB3;
+                }
+            }
+            button{
+                margin-top: 40px;
+                padding: 10px 25px;
+                background: #3d97ee;
+                color: #fff;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                &:hover{
+                    background: #0084ff;
+                }
+            }
+        }
+    }
+}

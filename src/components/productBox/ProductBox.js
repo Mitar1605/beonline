@@ -18,7 +18,7 @@ export default function ProductBox({product}) {
   
   return (
     <div className='productbox_container'>
-        <Link to={`/${type}/${product["general characteristics"].model}/${id}`}>
+        <Link to={`/${type}/${product.model}/${id}`}>
           <div className="productbox_thumbnail">
             <img src={images[0]} alt="product image" />
           </div>
@@ -33,7 +33,7 @@ export default function ProductBox({product}) {
           }
         </div>
         <div className="productbox_monthly_price">
-          <p>Ամսական <span>{product["installment 36 months"]}</span></p>
+          <p>Ամսական <span>{product["installment 36 months"]} դր․</span></p>
         </div>
         <div className="productbox_available" style={{background: product["is available"] ? "#9fda40": "#ff4448"}}>
           <span>{product["is available"] ? "Առկա է": "Առկա չէ"}</span>

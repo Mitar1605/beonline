@@ -4,6 +4,7 @@ import Shop from "../pages/shop/Shop"
 import ProductPage from "../pages/productPage/ProductPage"
 import Category from "../pages/category/Category"
 import AdminPanel from "../pages/admin/AdminPanel"
+import AddProduct from "../pages/addProduct/AddProduct"
 
 export const authUserRoutes = [
     {
@@ -13,6 +14,10 @@ export const authUserRoutes = [
     {
         path: '/admin-panel',
         component: <AdminPanel /> 
+    },
+    {
+        path: '/add-product',
+        component: <AddProduct /> 
     }
 ]
 

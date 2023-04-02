@@ -18,5 +18,8 @@
 }
 
 .product_brend {
-  width: 100px;
+  width: 50px;
+}
+.product_brend svg {
+  margin-left: 10px;
 }/*# sourceMappingURL=ProductTd.css.map */

@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import {AiOutlineMinusCircle, AiOutlinePlusCircle, AiOutlineClose} from 'react-icons/ai'
 import { isAuthContext } from '../../App'
 import Axios from 'axios'
+import useFetch from '../../hooks/useFetch'
 
 export default memo(function BasketBox({product}) {
 
@@ -46,6 +47,29 @@ export default memo(function BasketBox({product}) {
     setPadPrice(quantity * price)
   }, [quantity])
   
+  useEffect(() => {
+    const getData = async () => {
+      return await fetch(`http://localhost:3500/${product.type}`)
+      .then(res => res.json())
+      .then(data => {
+        if (data.find(el => JSON.stringify(el) === JSON.stringify(product)) === undefined) {
+          const shopListCopy = shopList.filter(el => el.id !== id)
+          setShopList(shopListCopy)
+      
+          const postShopDataUserCopy = {...postShopDataUser}
+          postShopDataUserCopy.shopList = shopListCopy
+          setPostShopDataUser(postShopDataUserCopy)
+      
+          Axios.put('http://localhost:3500/users/' + postShopDataUserCopy.id, postShopDataUserCopy)
+      
+          sessionStorage.getItem('rememberUser') ? sessionStorage.setItem('rememberUser', JSON.stringify(postShopDataUserCopy)): localStorage.getItem('rememberUser') && localStorage.setItem('rememberUser', JSON.stringify(postShopDataUserCopy))
+        }
+      })
+    }
+    getData()
+  }, [])
+
+  
   return (
     <tr>
       <td className='title_main_td'>
@@ -53,7 +77,7 @@ export default memo(function BasketBox({product}) {
           <img src={images && images[0]} alt="product image" />
         </div>
         <div className='title_td'>
-          <Link to={`/${type}/${product["general characteristics"].model}/${id}`}>{title}</Link>
+          <Link to={`/${type}/${product.model}/${id}`}>{title}</Link>
           <p>{priceComma(price)}դր․</p>
         </div>
       </td>
