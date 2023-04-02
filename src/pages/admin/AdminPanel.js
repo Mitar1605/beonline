@@ -2,6 +2,7 @@ import React, { memo, useContext ,useState } from 'react'
 import AdminPanelSideBar from '../../components/adminPanelSideBar/AdminPanelSideBar'
 import AdminPanelContent from '../../components/adminPanelContent/AdminPanelContent'
 import { isAuthContext } from '../../App'
+import {BiUserCircle} from 'react-icons/bi'
 import './AdminPanel.css'
 
 export default memo(function AdminPanel() {
@@ -9,7 +10,7 @@ export default memo(function AdminPanel() {
 
   const isAdmin = initialUser.status === 'admin'
 
-  const adminPanelTools = ['Ապրանքներ']
+  const adminPanelTools = ['Ապրանքներ', 'Օգտատերեր']
   
   const [initialTool, setInitialTool] = useState(adminPanelTools[0])
 

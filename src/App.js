@@ -1,10 +1,11 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useEffect, useState } from 'react';
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
 import Header from './components/header/Header';
 import useScrollTop from './hooks/useScrollTop';
 import { authUserRoutes, guestRoutes } from './hooks/routeData';
 import Axios from 'axios';
+import useFetch from './hooks/useFetch';
 
 export const isAuthContext = createContext()  
 
@@ -40,6 +41,10 @@ function App() {
       }else alert("Արդեն ավելացված է զամբյուղում!")
     }else alert('Մինչև զամբյուղում ինչ-որ բան ավելացնելը անհրաժեշտ է գրանցվել')
   }
+
+  // useEffect(() => {
+  //   sessionStorage.getItem('rememberUser') ? sessionStorage.setItem('rememberUser', JSON.stringify(data)): localStorage.getItem('rememberUser') && localStorage.setItem('rememberUser', JSON.stringify(data))
+  // }, [data])
 
   return (
     <div className="App">

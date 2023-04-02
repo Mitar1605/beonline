@@ -1,8 +1,6 @@
-import React, { memo, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import React, { memo } from 'react'
+import { Link } from 'react-router-dom'
 import {BsFillTrashFill} from 'react-icons/bs'
-import {AiOutlineRead} from 'react-icons/ai'
-import useFetch from '../../hooks/useFetch'
 import './ProductTd.css'
 
 export default memo(function ProductTd({product, deleteProduct}) {

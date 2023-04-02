@@ -1,6 +1,7 @@
 import React, { memo, useContext } from 'react'
 import { isAuthContext } from '../../App'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
+import {BiUserCircle} from 'react-icons/bi'
 import './AdminPanelSideBar.css'
 
 export default memo(function AdminPanelSideBar({adminPanelTools, initialTool, setInitialTool}) {
@@ -21,7 +22,7 @@ export default memo(function AdminPanelSideBar({adminPanelTools, initialTool, se
         {
             adminPanelTools.map((tool, i) => {
                 return (
-                    <li key={i} style={{background: initialTool === tool ? '#ebebeb': 'none'}} onClick={() => setInitialTool(tool)} >{tool === "Ապրանքներ" && <AiOutlineShoppingCart />}{tool}</li>
+                    <li key={i} style={{background: initialTool === tool ? '#ebebeb': 'none'}} onClick={() => setInitialTool(tool)} >{tool === "Ապրանքներ" ? <AiOutlineShoppingCart />: tool === "Օգտատերեր" ? <BiUserCircle />: '' }{tool}</li>
                 )
             })
          }

@@ -77,17 +77,6 @@ export default memo(function ProductPage() {
                       <h2>{priceComma(price)}դր․</h2>
                       <span>{product.data["discounted price"] ? priceComma(product.data["discounted price"]) + "դր․": ""}</span>
                     </div>
-                    <div className="product_content_info_price_quantity">
-                      <div className='qunatity_td'>
-                        <button className='quantity_button quantity_minus' onClick={removeQuantity}>
-                          <AiOutlineMinusCircle />
-                        </button>
-                        <p>{quantity}</p>
-                        <button className='quantity_button quantity_plus' onClick={addQuantity}>
-                          <AiOutlinePlusCircle />
-                        </button>
-                      </div>
-                    </div>
                   </div>
                   <div className="product_content_info">
                     <div className="product_content_info_card product_content_info_ram">
