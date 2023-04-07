@@ -2,6 +2,7 @@ import React, {useContext} from 'react'
 import { NavLink } from 'react-router-dom'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import {BiUserCircle} from 'react-icons/bi'
+import {ImExit} from 'react-icons/im'
 import { isAuthContext } from '../../App'
 import './Header.css'
 
@@ -17,14 +18,34 @@ export default function Header() {
             <div className="haeder_content">
               <nav>
                 <ul>
-                  {
-                    initialUser.status === 'admin' && <li><NavLink to='/admin-panel'>Admin panel</NavLink></li>
-                  }
-                  
                   <li><NavLink to={isAuth && '/shop'}><AiOutlineShoppingCart /> {shopList.length > 0 && <strong>{shopList.length}</strong>}</NavLink></li>
-                  <li><NavLink to='/auth'>{
+                  <li><NavLink className='drop_main' to={!isAuth && '/auth'}>{
                     isAuth ? <h4>{initialUser && initialUser.email.slice(0, initialUser.email.indexOf('@'))}</h4>: <> <BiUserCircle /> <span>Մուտք</span> </>
-                  }</NavLink></li>
+                  }
+                  {
+                    isAuth && 
+                    <div className="header_rop_down">
+                      <ul>
+                        {
+                          initialUser.status === 'admin' && <li><NavLink to='/admin-panel'>Ադմինստրատորի բաժին</NavLink></li>
+                        }
+                        <li>
+                          <NavLink to='/'>Պռոֆիլ</NavLink>
+                        </li>
+                        <li>
+                          <div className="header_rop_down_footer">
+                            <NavLink to='/auth' onClick={() => {
+                              sessionStorage.removeItem('isAuth')
+                              sessionStorage.removeItem('rememberUser')
+                              localStorage.removeItem('isAuth')
+                              localStorage.removeItem('rememberUser')
+                            }}><ImExit /> Ելք</NavLink>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  }
+                  </NavLink></li>
                 </ul>
               </nav>
             </div>

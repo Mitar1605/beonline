@@ -60,6 +60,47 @@ header{
                             font-size: 10px;
                         }
                     }
+                    .drop_main{
+                        position: relative;
+                        &:hover .header_rop_down{
+                            display: block !important;
+                        }
+                        .header_rop_down{
+                            display: none !important;
+                            width: 200px;
+                            position: absolute;
+                            top: 35px;
+                            left: -30px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            background: #fff;
+                            ul{
+                                width: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                list-style: none;
+                                li{
+                                    width: 100%;
+                                    padding: 0;
+                                }
+                            }
+                            a{
+                                display: flex;
+                                color: #333;
+                                align-items: center;
+                                font-weight: 600;
+                                &:hover{
+                                    color: #000;
+                                    background: lightgrey;
+                                }
+                            }
+                            .header_rop_down_footer{
+                                border-top: 1px solid grey;
+                            }
+                        }
+                    }
                     h4{
                         font-weight: 400;
                     }

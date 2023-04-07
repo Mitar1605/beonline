@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom'
 import {AiOutlineMinusCircle, AiOutlinePlusCircle, AiOutlineClose} from 'react-icons/ai'
 import { isAuthContext } from '../../App'
 import Axios from 'axios'
-import useFetch from '../../hooks/useFetch'
 
 export default memo(function BasketBox({product}) {
 
@@ -52,17 +51,8 @@ export default memo(function BasketBox({product}) {
       return await fetch(`http://localhost:3500/${product.type}`)
       .then(res => res.json())
       .then(data => {
-        if (data.find(el => JSON.stringify(el) === JSON.stringify(product)) === undefined) {
-          const shopListCopy = shopList.filter(el => el.id !== id)
-          setShopList(shopListCopy)
-      
-          const postShopDataUserCopy = {...postShopDataUser}
-          postShopDataUserCopy.shopList = shopListCopy
-          setPostShopDataUser(postShopDataUserCopy)
-      
-          Axios.put('http://localhost:3500/users/' + postShopDataUserCopy.id, postShopDataUserCopy)
-      
-          sessionStorage.getItem('rememberUser') ? sessionStorage.setItem('rememberUser', JSON.stringify(postShopDataUserCopy)): localStorage.getItem('rememberUser') && localStorage.setItem('rememberUser', JSON.stringify(postShopDataUserCopy))
+        if (data.find(el => el.id === product.id) === undefined) {
+          deleteFromBasket(product.id)
         }
       })
     }

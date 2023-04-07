@@ -5,7 +5,7 @@ import BasketBox from '../basketBox/BasketBox'
 
 export default memo(function BasketContainer() {
 
-  const {initialUser, shopList} = useContext(isAuthContext)
+  const {shopList} = useContext(isAuthContext)
 
   return (
     <div className='basket_container_div'>
