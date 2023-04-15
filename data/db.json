@@ -1,12 +1,181 @@
 {
-  "smartphone": [],
-  "noutbook": [],
+  "smartphone": [
+    {
+      "title": "Apple iPhone 13 mini 256GB (Blue)",
+      "price": 349900,
+      "type": "smartphone",
+      "year of announcement": "2021",
+      "color": "blue",
+      "available colors": [
+        "yellow",
+        " blue"
+      ],
+      "images": [
+        "https://www.mobilecentre.am/img/prodpic/807541bc9100a436d26eiPhone_13_mini_Q421_Blue_PDP_Image_Position-1A__ww-RU.jpg",
+        " https://www.mobilecentre.am/img/prodpic/7907bae3acdfc2947717%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__10_.png",
+        " https://www.mobilecentre.am/img/prodpic/60bb9c1c7e7fc709bb8e%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__8_.png",
+        " https://www.mobilecentre.am/img/prodpic/812178546638a7e3b457%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__7_.png"
+      ],
+      "brend": "Apple",
+      "model": "Apple iPhone 13",
+      "ram": "4 GB",
+      "rom": "256 GB",
+      "id": 1,
+      "quantity": 1,
+      "is available": true,
+      "rating": [
+        4
+      ],
+      "ratedUsers": [
+        {
+          "email": "safaryanmxitar@gmail.com",
+          "index": 0
+        }
+      ],
+      "discounted price": 0,
+      "installment 36 months": 9719
+    },
+    {
+      "title": "iPhone 14 Plus 128GB (Yellow)",
+      "price": 349900,
+      "type": "smartphone",
+      "year of announcement": "2023",
+      "color": "yellow",
+      "available colors": [
+        "yellow",
+        " blue"
+      ],
+      "images": [
+        "https://www.mobilecentre.am/img/prodpic/eefcecc52c7e3920c7d9AMAM_iPhone14Plus_Q223_Yellow_PDP_Image_Position-1A.jpg",
+        " https://www.mobilecentre.am/img/prodpic/753516a75092a2431908AMAM_iPhone14Plus_Q223_Yellow_PDP_Image_Position-1B.jpg",
+        " https://www.mobilecentre.am/img/prodpic/3d77843169e819862934%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__6_.png"
+      ],
+      "brend": "Apple",
+      "model": "iPhone 14 Plus",
+      "ram": "6 GB",
+      "rom": "128 GB",
+      "id": 2,
+      "quantity": 1,
+      "is available": true,
+      "rating": [
+        3
+      ],
+      "ratedUsers": [
+        {
+          "email": "safaryanmxitar@gmail.com",
+          "index": 0
+        }
+      ],
+      "discounted price": 0,
+      "installment 36 months": 9719
+    }
+  ],
+  "noutbook": [
+    {
+      "title": "PC Notebook LENOVO IdeaPad 3 512GB (Grey)",
+      "price": 339900,
+      "type": "noutbook",
+      "year of announcement": "2023",
+      "color": "grey",
+      "available colors": [
+        "grey"
+      ],
+      "images": [
+        "https://www.mobilecentre.am/img/prodpic/9b0a5503fd335f776e75%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__11_.png"
+      ],
+      "brend": "Lenovo",
+      "model": "PC Notebook LENOVO IdeaPad 3",
+      "ram": "8 GB",
+      "rom": "512 GB",
+      "id": 3,
+      "quantity": 1,
+      "is available": true,
+      "rating": [
+        5
+      ],
+      "ratedUsers": [
+        {
+          "email": "safaryanmxitar@gmail.com",
+          "index": 0
+        }
+      ],
+      "discounted price": 0,
+      "installment 36 months": 9441
+    },
+    {
+      "title": "PC Notebook HP 250 G9 Intel Core i5-1235U 512GB (Black)",
+      "price": 349900,
+      "type": "noutbook",
+      "year of announcement": "2023",
+      "color": "black",
+      "available colors": [
+        "black"
+      ],
+      "images": [
+        "https://www.mobilecentre.am/img/prodpic/318319e38f820712ec3c%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__14_.png"
+      ],
+      "brend": "Hp",
+      "model": "PC Notebook HP 250 G9 ",
+      "ram": "8 GB",
+      "rom": "512 GB",
+      "id": 4,
+      "quantity": 1,
+      "is available": true,
+      "rating": [
+        4
+      ],
+      "ratedUsers": [
+        {
+          "email": "safaryanmxitar@gmail.com",
+          "index": 0
+        }
+      ],
+      "discounted price": 0,
+      "installment 36 months": 9719
+    }
+  ],
   "users": [
     {
       "id": 1,
       "email": "safaryanmxitar@gmail.com",
       "password": "Ptptikmxo14",
-      "shopList": [],
+      "shopList": [
+        {
+          "title": "Apple iPhone 13 mini 256GB (Blue)",
+          "price": 349900,
+          "type": "smartphone",
+          "year of announcement": "2021",
+          "color": "blue",
+          "available colors": [
+            "yellow",
+            " blue"
+          ],
+          "images": [
+            "https://www.mobilecentre.am/img/prodpic/807541bc9100a436d26eiPhone_13_mini_Q421_Blue_PDP_Image_Position-1A__ww-RU.jpg",
+            " https://www.mobilecentre.am/img/prodpic/7907bae3acdfc2947717%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__10_.png",
+            " https://www.mobilecentre.am/img/prodpic/60bb9c1c7e7fc709bb8e%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__8_.png",
+            " https://www.mobilecentre.am/img/prodpic/812178546638a7e3b457%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82__7_.png"
+          ],
+          "brend": "Apple",
+          "model": "Apple iPhone 13",
+          "ram": "4 GB",
+          "rom": "256 GB",
+          "id": 1,
+          "quantity": 1,
+          "is available": true,
+          "rating": [
+            4
+          ],
+          "ratedUsers": [
+            {
+              "email": "safaryanmxitar@gmail.com",
+              "index": 0
+            }
+          ],
+          "discounted price": 0,
+          "installment 36 months": 9719
+        }
+      ],
       "status": "admin"
     },
     {

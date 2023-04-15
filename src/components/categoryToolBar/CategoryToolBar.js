@@ -17,6 +17,10 @@ export default memo(function CategoryToolBar({dispatch, state}) {
     {
       brendName: "Hp",
       thumbnail: "https://www.pngmart.com/files/15/Blue-Hewlett-Packard-Logo-PNG-File.png" 
+    },
+    {
+      brendName: "Lenovo",
+      thumbnail: "https://logos-world.net/wp-content/uploads/2022/07/Lenovo-Logo.jpg" 
     }
   ]: 'smartphone' ? [
     {

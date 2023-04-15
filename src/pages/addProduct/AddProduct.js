@@ -89,7 +89,12 @@ export default memo(function AddProduct() {
 
     const [postData, setPostData] = useState({})
 
-    const setId = useFetch(`http://localhost:3500/smartphone`).data.length + 1
+    const products = [
+        ...useFetch('http://localhost:3500/smartphone').data,
+        ...useFetch('http://localhost:3500/noutbook').data
+    ]
+
+    const setId = products.length + 1
 
     useEffect(() => {
         setPostData({

@@ -18,15 +18,12 @@ export default function ProductContainer({productType, shopList}) {
             {
                 productType ? data.map(product => {
                     return (
-                        <div key={product.id}>
-                            <ProductBox product={product} />
-                        </div>
+                        <ProductBox key={product.id} product={product} />
+                        
                     )
                 }): shopList ? shopList.map(product => {
                     return (
-                        <div key={product.id}>
-                            <ProductBox product={product} />
-                        </div>
+                        <ProductBox key={product.id} product={product} />
                     )
                 }): ''
             }

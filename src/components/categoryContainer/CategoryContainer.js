@@ -53,9 +53,7 @@ export default memo(function CategoryContainer({productType, sortParam, state}) 
             {
               filteredData.sort((p1, p2) => ( calcRating(p1[sortParam]) < calcRating(p2[sortParam])) ? 1 : (calcRating(p1[sortParam]) > calcRating(p2[sortParam])) ? -1 : 0).map(product => {
                 return (
-                    <div key={product.id}>
-                        <ProductBox product={product} />
-                    </div>
+                  <ProductBox key={product.id} product={product} />
                 )
               })
             }
