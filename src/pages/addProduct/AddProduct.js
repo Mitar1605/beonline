@@ -178,11 +178,11 @@ export default memo(function AddProduct() {
                             </label>
                             <label>
                                 Ապրանքի բոլոր հասանելի գույները (նշել սրորակետերով)։
-                                <input type="text" name="available colors" onChange={(e) => handelAddProduct('colors', e.target.value.trim().split(','))} />
+                                <input type="text" name="available colors" onChange={(e) => handelAddProduct('colors', e.target.value.split(',').map(color => color.trim()))} />
                             </label>
                             <label>
                                 Ապրանքի նկարները (տեղադրել URL հասցեները) (նշել սրորակետերով)։
-                                <input type="text" name="images" onChange={(e) => handelAddProduct('images', e.target.value.trim().split(','))} />
+                                <input type="text" name="images" onChange={(e) => handelAddProduct('images', e.target.value.split(',').map(image => image.trim()))} />
                             </label>
                             <button>
                                 Ավելացնել
